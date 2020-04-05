@@ -10,21 +10,21 @@
 
 ---
 
-``sh
+```sh
 yarn install
 
 Or
 
 npm run install
-``
+```
 
-``sh
+```sh
 yarn dev
 
 Or
 
 npm run dev
-``
+```
 
 - [x] Install express nodemon
 - [x] Setup server
