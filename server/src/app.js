@@ -35,7 +35,7 @@ app.get("/", (req, res) => {
   });
 });
 
-// app.use('/auth', auth);
+app.use("/auth", auth);
 // // app.use('/api/v1/notes', IsLoogedIn, notes);
 // app.use('/user/notes', IsLoogedIn, notes);
 // app.use('/api/v1/users', IsLoogedIn, isAdmin, users);

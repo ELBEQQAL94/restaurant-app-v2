@@ -1,8 +1,8 @@
-const { findUserIfExists, createNewUser } = require('./helpers');
+const { findUserIfExists, createNewUser } = require("./helpers");
 
 exports.getAuth = (req, res) => {
   res.json({
-    message: 'hello, auth route',
+    message: "hello, auth route",
   });
 };
 

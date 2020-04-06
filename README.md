@@ -29,6 +29,9 @@ npm run dev
 - [x] Install express nodemon
 - [x] Setup server
 - [x] run 'hello world!' on the server
+- [x] Install passport
+- [x] Install passport-google-oauth20
+- [x] Setup clientId and secretId
 
 ### Database `Postgresql`:
 
@@ -53,16 +56,24 @@ npm run dev
 
 ---
 
+- [x] Backend Deployed!
 - [](https://restaurant-webapp-server.herokuapp.com/)
 
 ### Deploy Database Postgres on `heroku`
 
 ---
 
-- [ ] heroku create <name>
-- [ ]
+- [x] heroku create <name>
+- [x] git init
+- [x] heroku git:remote -a restaurant-webapp-database
+- [x] heroku addons:create heroku-postgresql
+- [x] git push heroku master
+- [x] heroku run knex migrate:latest
+- [x] heroku run knex seed:run
+- [x] heroku pg:psql
+- [ ] Deployed!
 
-* [](https://restaurant-webapp-server.herokuapp.com/)
+* [](https://restaurant-webapp-database.herokuapp.com/)
 
 ### Deploy Front End On Netlify
 
