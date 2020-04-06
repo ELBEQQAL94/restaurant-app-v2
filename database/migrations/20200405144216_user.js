@@ -11,6 +11,7 @@ exports.up = async (knex) => {
     table.string("username", 254).notNullable();
     table.string("email", 254).notNullable().unique();
     table.string("password", 254);
+    table.string("google_id", 254).notNullable();
     table.string("phone", 254);
     table.string("image_url", 254);
     table.boolean("active").notNullable().default(true);
