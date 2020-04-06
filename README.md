@@ -30,19 +30,38 @@ npm run dev
 - [x] Setup server
 - [x] run 'hello world!' on the server
 
-### Database `POstgresql`:
+### Database `Postgresql`:
 
 ---
+
+- [x] Iinit npm
+- [x] Install knex and pg
+- [x] Createdb restaurant-db
+- [x] npx knex init
+- [x] Modeling database:
+  - [](https://www.lucidchart.com/invitations/accept/41a10131-9dfc-4b4e-a00e-e8c956b5b1ea)
+- [x] Create migrations
+- [x] run migrations
+- [x] Create seeds
+- [x] run seeds
 
 ### Documentation
 
 ---
 
-### Deploy Backend on now
+### Deploy Backend on `heroku`
 
 ---
 
-### Deploy FRont End On Netlify
+- [](https://restaurant-webapp-server.herokuapp.com/)
+
+### Deploy Database on `heroku`
+
+---
+
+- [](https://restaurant-webapp-server.herokuapp.com/)
+
+### Deploy Front End On Netlify
 
 ---
 
@@ -63,3 +82,6 @@ npm run dev
 - Front End:
 - Backend:
 - DataBase:
+
+* knex.js
+* postgresql

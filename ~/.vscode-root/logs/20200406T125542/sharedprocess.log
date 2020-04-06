@@ -1,0 +1,4 @@
+[2020-04-06 12:55:53.353] [sharedprocess] [info] main {"machineId":"6f94a781583551821796953118c6cb5fade14c8856dcdbb6d957f57ec2ca034a","windowId":2}
+[2020-04-06 12:56:14.027] [sharedprocess] [info] Installing extension: esbenp.prettier-vscode
+[2020-04-06 12:56:21.391] [sharedprocess] [error] Failed to install extension: esbenp.prettier-vscode 
+[2020-04-06 12:56:33.475] [sharedprocess] [info] Starting to clean up unused language packs.
