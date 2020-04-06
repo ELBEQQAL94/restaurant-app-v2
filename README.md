@@ -55,11 +55,14 @@ npm run dev
 
 - [](https://restaurant-webapp-server.herokuapp.com/)
 
-### Deploy Database on `heroku`
+### Deploy Database Postgres on `heroku`
 
 ---
 
-- [](https://restaurant-webapp-server.herokuapp.com/)
+- [ ] heroku create <name>
+- [ ]
+
+* [](https://restaurant-webapp-server.herokuapp.com/)
 
 ### Deploy Front End On Netlify
 
