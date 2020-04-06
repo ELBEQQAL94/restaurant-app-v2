@@ -69,9 +69,10 @@ npm run dev
 - [x] heroku addons:create heroku-postgresql
 - [x] git push heroku master
 - [x] heroku run knex migrate:latest
+- [x] heroku run knex migrate:rollback
 - [x] heroku run knex seed:run
 - [x] heroku pg:psql
-- [ ] Deployed!
+- [x] Deployed!
 
 * [](https://restaurant-webapp-database.herokuapp.com/)
 

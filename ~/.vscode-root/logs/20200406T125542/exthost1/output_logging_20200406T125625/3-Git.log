@@ -840,3 +840,45 @@ Open repository: /home/youssef/Downloads/opt/restaurant-app-v2
 > git for-each-ref --format %(refname) %(objectname) --sort -committerdate
 > git remote --verbose
 > git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/database/migrations/20200406111106_add_role_id_to_user.js
+> git cat-file -s fe445f4e5dc482ffbc1cba321efa53b5477c1e45
+> git show :database/migrations/20200406111106_add_role_id_to_user.js
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :database/migrations/20200405144216_user.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/database/migrations/20200405144216_user.js
+> git cat-file -s 3f02e8d5d6334fda077a50ce8df50963c69c5318
+> git show :database/package.json
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/database/package.json
+> git cat-file -s 3cca4e0d3bd86d3d07104402ac56d18a9706bde9
+> git show :README.md
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/README.md
+> git cat-file -s 464e02bea01a57a02f61b135baeb7251548b578a
+> git show :server/queries/users.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/queries/users.js
+> git cat-file -s 1d547d3be2f109199da748140e6b31d1d3cd4a04
+> git show :README.md
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/README.md
+> git cat-file -s 464e02bea01a57a02f61b135baeb7251548b578a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
