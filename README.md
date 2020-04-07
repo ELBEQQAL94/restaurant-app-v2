@@ -6,6 +6,15 @@
 
 ---
 
+- [x] Create frontend folder
+- [x] Generate the app using:
+  - vue create .
+- [x] Create simple "hello worlde" page
+- [x] Install vuetify
+- [ ] Create landing page
+- [ ] Create About page
+- [ ] Add vue router
+
 ### Backe End `Node/Express`
 
 ---
