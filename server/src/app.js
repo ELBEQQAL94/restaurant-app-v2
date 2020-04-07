@@ -1,6 +1,7 @@
 const express = require("express");
 const morgan = require("morgan");
 const helmet = require("helmet");
+const passport = require("passport");
 require("dotenv").config();
 const cors = require("cors");
 require("./tasks/createAdminUser");
@@ -24,6 +25,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors({ origini: process.env.CORS_ORIGIN }));
 app.use(express.json());
 app.use(helmet());
+app.use(passport.initialize());
 app.use(checkTokenSetUser);
 
 // routes

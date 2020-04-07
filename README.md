@@ -32,6 +32,12 @@ npm run dev
 - [x] Install passport
 - [x] Install passport-google-oauth20
 - [x] Setup clientId and secretId
+- [x] Create google file
+- [x] Create auth route for handle auth using google session
+- [x] Connect with database using knexfile, pg
+- [x] Create db file to connect server with database
+- [x] Initialize passport
+- [x] Serialize and Deserialize the user
 
 ### Database `Postgresql`:
 

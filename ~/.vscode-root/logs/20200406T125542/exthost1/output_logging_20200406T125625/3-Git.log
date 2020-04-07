@@ -1184,3 +1184,14 @@ Open repository: /home/youssef/Downloads/opt/restaurant-app-v2
 > git for-each-ref --format %(refname) %(objectname) --sort -committerdate
 > git remote --verbose
 > git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/passport/google.js
+> git cat-file -s 7b9e9ecb640a26f59682da5b5c820025219d85a1
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git show :server/src/passport/google.js
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template

@@ -3,7 +3,7 @@ const { users } = require("../src/db/constants");
 
 exports.up = async (knex) => {
   await knex.schema.table(users, (table) => {
-    reference(table);
+    reference(table, "role");
   });
 };
 
