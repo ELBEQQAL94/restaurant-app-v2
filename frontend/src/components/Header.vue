@@ -4,9 +4,7 @@
       <v-container>
         <v-layout row>
           <v-flex md9>
-            <v-app-bar-nav-icon
-              @click.stop="drawer = !drawer"
-            ></v-app-bar-nav-icon>
+            <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
             <span>
               <router-link class="logo" to="/">FoOd DeLevry</router-link>
             </span>
@@ -14,10 +12,10 @@
           <v-flex md3>
             <v-layout row>
               <v-flex md6>
-                <v-btn block small color="#00B0FF" dark>login</v-btn>
+                <v-btn @click="overlay = !overlay" block small color="#00B0FF" dark>login</v-btn>
               </v-flex>
               <v-flex md6>
-                <v-btn block small color="primary" dark>signup</v-btn>
+                <v-btn @click="overlay = !overlay" block small color="primary" dark>signup</v-btn>
               </v-flex>
             </v-layout>
           </v-flex>
@@ -25,35 +23,22 @@
       </v-container>
     </v-app-bar>
 
-    <v-navigation-drawer
-      height="100vh"
-      v-model="drawer"
-      absolute
-      temporary
-      dark
-    >
+    <v-navigation-drawer height="100vh" v-model="drawer" absolute temporary dark>
       <v-list nav dense>
-        <v-list-item-group
-          v-model="group"
-          active-class="deep-purple--text text--accent-4"
-        >
+        <v-list-item-group v-model="group" active-class="deep-purple--text text--accent-4">
           <v-list-item>
             <v-list-item-title>Home</v-list-item-title>
           </v-list-item>
 
           <v-list-item>
             <v-list-item-title>
-              <router-link to="/">
-                Home
-              </router-link>
+              <router-link to="/">Home</router-link>
             </v-list-item-title>
           </v-list-item>
 
           <v-list-item>
             <v-list-item-title>
-              <router-link to="/about">
-                About
-              </router-link>
+              <router-link to="/about">About</router-link>
             </v-list-item-title>
           </v-list-item>
 
@@ -79,13 +64,13 @@
 export default {
   data: () => ({
     drawer: false,
-    group: null,
+    group: null
   }),
 
   watch: {
     group() {
       this.drawer = false;
-    },
-  },
+    }
+  }
 };
 </script>

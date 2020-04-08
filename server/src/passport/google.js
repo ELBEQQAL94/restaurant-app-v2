@@ -28,16 +28,20 @@ passport.use(
         phone: "+212675058801",
         role_id: 1,
       };
-      let user = await users.findUserByEmail(email);
-      if (user) {
-        // update user
-        googleUser.role_id = user.role_id;
-        user = await users.update(user.id, googleUser);
-      } else {
-        // insert user
-        user = await users.insert(googleUser);
+      try {
+        let user = await users.findUserByEmail(email);
+        if (user) {
+          // update user
+          //googleUser.role_id = user.role_id;
+          user = await users.update(user.id, googleUser);
+        } else {
+          // insert user
+          user = await users.insert(googleUser);
+        }
+        return cb(null, user);
+      } catch (err) {
+        return cb(err);
       }
-      return cb(null, user);
     }
   )
 );

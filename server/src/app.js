@@ -11,7 +11,7 @@ const notes = require("./routes/api/notes");
 const users = require("./routes/api/users");
 
 const {
-  checkTokenSetUser,
+  checkAuthHeaderSetUser,
   IsLoogedIn,
   isAdmin,
 } = require("./routes/auth/auth.middlewares");
@@ -26,14 +26,12 @@ app.use(cors({ origini: process.env.CORS_ORIGIN }));
 app.use(express.json());
 app.use(helmet());
 app.use(passport.initialize());
-app.use(checkTokenSetUser);
+app.use(checkAuthHeaderSetUser);
 
 // routes
 app.get("/", (req, res) => {
-  const { user } = req;
   res.json({
     message: "Hello World!",
-    user,
   });
 });
 

@@ -1,0 +1,8 @@
+[2020-04-08 11:15:22.926] [main] [info] update#setState idle
+[2020-04-08 11:15:52.938] [main] [info] update#setState checking for updates
+[2020-04-08 11:16:41.473] [main] [error] Error: net::ERR_TIMED_OUT
+    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:2623:21)
+    at SimpleURLLoaderWrapper.emit (events.js:203:13)
+[2020-04-08 11:16:41.474] [main] [info] update#setState idle
+[2020-04-08 12:15:52.966] [main] [info] update#setState checking for updates
+[2020-04-08 12:15:53.798] [main] [info] update#setState available for download

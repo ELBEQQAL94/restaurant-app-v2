@@ -1,36 +1,26 @@
-const jwt = require('jsonwebtoken');
-const Joi = require('joi');
-const { signUpSchema, loginSchema } = require('./auth.schema');
-
-// secret code
-const secret = process.env.jwtSecrete;
+const jwt = require("jsonwebtoken");
+const Joi = require("joi");
+const { verifyToken } = require("../../helpers");
+const { signUpSchema, loginSchema } = require("./auth.schema");
 
 function IsLoogedIn(req, res, next) {
   if (req.user) {
     next();
   } else {
-    const error = new Error('unauthorized.');
+    const error = new Error("unauthorized.");
     res.status(401);
     next(error);
   }
 }
 
-function checkTokenSetUser(req, res, next) {
-  const authHeader = req.get('authorization');
+function checkAuthHeaderSetUser(req, res, next) {
+  const authorization = req.get("authorization");
 
-  if (authHeader) {
-    const token = authHeader.split(' ')[1];
+  if (authorization) {
+    const token = authorization.split(" ")[1];
 
     if (token) {
-      jwt.verify(token, secret, (error, user) => {
-        if (error) {
-          next(error);
-        }
-
-        req.user = user;
-
-        next();
-      });
+      verifyToken(token, req, next);
     } else {
       next();
     }
@@ -40,15 +30,14 @@ function checkTokenSetUser(req, res, next) {
 }
 
 function isAdmin(req, res, next) {
-  if (req.user.role === 'admin') {
+  if (req.user.role === "admin") {
     next();
   } else {
-    const error = new Error('unauthorized.');
+    const error = new Error("unauthorized.");
     res.status(401);
     next(error);
   }
 }
-
 
 const validateSignUpUser = (req, res, next) => {
   const result = Joi.validate(req.body, signUpSchema);
@@ -72,9 +61,8 @@ const validateLoginUser = (req, res, next) => {
   }
 };
 
-
 module.exports = {
-  checkTokenSetUser,
+  checkAuthHeaderSetUser,
   IsLoogedIn,
   isAdmin,
   validateSignUpUser,

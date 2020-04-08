@@ -1,4 +1,4 @@
-const jwt = require('jsonwebtoken');
+const jwt = require("jsonwebtoken");
 
 // page not found
 function notFound(req, res, next) {
@@ -13,7 +13,7 @@ function errorHandler(err, req, res, next) {
   res.status(req.statusCode || 500);
   res.json({
     message: err.message,
-    stack: process.env.NODE_ENV === 'production' ? '' : err.stack,
+    stack: process.env.NODE_ENV === "production" ? "" : err.stack,
   });
 }
 
@@ -26,26 +26,32 @@ function showError(res, next, message) {
 
 // create token send response
 // sign Token
-function createTokenSendResponse(user, secret, res, next, message) {
-  // create token for user
-  const payload = {
-    _id: user._id,
-    email: user.email,
-    role: user.role,
-  };
+function createTokenSendResponse(user) {
+  return new Promise((resolve, reject) => {
+    jwt.sign(
+      user,
+      process.env.TOKEN_SECRET,
+      { expiresIn: "1d" },
+      (err, token) => {
+        if (err) {
+          //showError(res, next, message);
+          return reject(err);
+        }
 
-  jwt.sign(payload, secret, { expiresIn: '1d' }, (err, token) => {
-    if (err) {
-      showError(res, next, message);
+        //res.json({ token });
+        resolve(token);
+      }
+    );
+  });
+}
+
+function verifyToken(token, req, next) {
+  jwt.verify(token, process.env.TOKEN_SECRET, (error, user) => {
+    if (error) {
+      next(error);
     }
-
-    // res.cookie('access_token', token, {
-    //   maxAge: 86400,
-    //   httpOnly: true,
-    //   // secure: true
-    // });
-
-    res.json({ token });
+    req.user = user;
+    next();
   });
 }
 
@@ -59,4 +65,5 @@ module.exports = {
   showError,
   createTokenSendResponse,
   getUsersWithoutAdminAccount,
+  verifyToken,
 };

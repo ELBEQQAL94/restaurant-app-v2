@@ -91,9 +91,11 @@ npm run dev
 
 * [](https://restaurant-webapp-database.herokuapp.com/)
 
-### Deploy Front End On Netlify
+### Deploy Front End On Now
 
 ---
+
+- [](https://retaurant-webapp.now.sh/#/)
 
 ### Screen shot for the App
 
