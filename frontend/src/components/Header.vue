@@ -4,7 +4,9 @@
       <v-container>
         <v-layout row>
           <v-flex md9>
-            <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+            <v-app-bar-nav-icon
+              @click.stop="drawer = !drawer"
+            ></v-app-bar-nav-icon>
             <span>
               <router-link class="logo" to="/">FoOd DeLevry</router-link>
             </span>
@@ -12,20 +14,40 @@
           <v-flex md3>
             <v-layout row>
               <v-flex md6>
-                <v-btn @click="overlay = !overlay" block small color="#00B0FF" dark>login</v-btn>
+                <a :href="getLoginURL">
+                  <v-btn block small color="#00B0FF" dark
+                    >login with google</v-btn
+                  >
+                </a>
               </v-flex>
-              <v-flex md6>
-                <v-btn @click="overlay = !overlay" block small color="primary" dark>signup</v-btn>
-              </v-flex>
+              <!-- <v-flex md4>
+                <v-btn
+                  @click="overlay = !overlay"
+                  block
+                  small
+                  color="primary"
+                  dark
+                  >signup</v-btn
+                >
+              </v-flex> -->
             </v-layout>
           </v-flex>
         </v-layout>
       </v-container>
     </v-app-bar>
 
-    <v-navigation-drawer height="100vh" v-model="drawer" absolute temporary dark>
+    <v-navigation-drawer
+      height="100vh"
+      v-model="drawer"
+      absolute
+      temporary
+      dark
+    >
       <v-list nav dense>
-        <v-list-item-group v-model="group" active-class="deep-purple--text text--accent-4">
+        <v-list-item-group
+          v-model="group"
+          active-class="deep-purple--text text--accent-4"
+        >
           <v-list-item>
             <v-list-item-title>Home</v-list-item-title>
           </v-list-item>
@@ -64,13 +86,21 @@
 export default {
   data: () => ({
     drawer: false,
-    group: null
+    group: null,
   }),
-
+  computed: {
+    getLoginURL() {
+      if (window.location.hostname === "localhost") {
+        return "http://localhost:4040/auth/google";
+      } else {
+        return "https://restaurant-webapp-server.herokuapp.com/auth/google";
+      }
+    },
+  },
   watch: {
     group() {
       this.drawer = false;
-    }
-  }
+    },
+  },
 };
 </script>

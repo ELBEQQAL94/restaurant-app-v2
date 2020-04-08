@@ -36,11 +36,9 @@ router.get("/google/callback", (req, res, next) => {
     try {
       const token = await createTokenSendResponse(user);
 
-      res.json({
-        token,
-      });
+      res.redirect(`${process.env.RIDERECT_CLIENT_URL}/${token}`);
     } catch (error) {
-      next(error);
+      res.redirect(`${process.env.RIDERECT_CLIENT_URL_ERROR}/${error.message}`);
     }
     // Create JWT
 

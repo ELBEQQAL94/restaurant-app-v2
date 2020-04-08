@@ -1192,3 +1192,181 @@ TypeError: Cannot read property 'emitNode' of undefined
 [2020-04-08 17:55:15.254] [exthost] [error] [vscode.typescript-language-features] provider FAILED
 [2020-04-08 17:55:15.254] [exthost] [error] Error: busy
 	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:10:24.178] [exthost] [warning] INVALID text edit -> must have at least a label
+[2020-04-08 18:11:03.231] [exthost] [warning] INVALID text edit -> must have at least a label
+[2020-04-08 18:22:28.076] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:22:28.076] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:22:29.206] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:22:29.206] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:22:39.821] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:22:39.821] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:22:40.915] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:22:40.915] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:22:44.330] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:22:44.330] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:22:44.990] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:22:44.990] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:24:26.999] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:24:26.999] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:24:27.330] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:24:27.330] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:24:31.630] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:24:31.630] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:25:37.475] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:25:37.475] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:25:38.169] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:25:38.169] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:25:54.080] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:25:54.081] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:26:36.740] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:26:36.740] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:26:37.370] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:26:37.370] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:26:38.615] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:26:38.615] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:26:38.937] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:26:38.937] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:26:42.561] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:26:42.562] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:26:44.336] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:26:44.336] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:26:44.826] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:26:44.826] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:26:45.264] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:26:45.265] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:26:49.660] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:26:49.660] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:29:01.082] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:29:01.083] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:29:02.467] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:29:02.467] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:29:10.175] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:29:10.175] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:29:54.966] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:29:54.966] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:29:56.062] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:29:56.062] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:29:59.643] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:29:59.643] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:30:04.655] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:30:04.655] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:30:12.740] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:30:12.740] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:30:18.293] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:30:18.293] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:30:25.537] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:30:25.537] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:31:00.891] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:31:00.891] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:31:01.449] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:31:01.449] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:32:03.647] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:32:03.647] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:32:04.074] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:32:04.075] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:32:12.487] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:32:12.488] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:32:37.350] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:32:37.350] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:32:37.642] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-08 18:32:37.642] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-08 18:33:54.347] [exthost] [error] [octref.vetur] provider FAILED
+[2020-04-08 18:33:54.348] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:386:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:386:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:375:558)
+	at asSymbolInformation (/home/youssef/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/youssef/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/youssef/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/youssef/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-08 18:34:01.395] [exthost] [error] [octref.vetur] provider FAILED
+[2020-04-08 18:34:01.396] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:386:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:386:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:375:558)
+	at asSymbolInformation (/home/youssef/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/youssef/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/youssef/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/youssef/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-08 18:35:51.108] [exthost] [error] [octref.vetur] provider FAILED
+[2020-04-08 18:35:51.109] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:386:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:386:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:375:558)
+	at asSymbolInformation (/home/youssef/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/youssef/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/youssef/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/youssef/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-08 18:38:15.842] [exthost] [error] [octref.vetur] provider FAILED
+[2020-04-08 18:38:15.843] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:386:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:386:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:375:558)
+	at asSymbolInformation (/home/youssef/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/youssef/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/youssef/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/youssef/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-08 18:38:18.318] [exthost] [error] [octref.vetur] provider FAILED
+[2020-04-08 18:38:18.319] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:386:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:386:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:375:558)
+	at asSymbolInformation (/home/youssef/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/youssef/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/youssef/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/youssef/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-08 18:38:35.053] [exthost] [error] [octref.vetur] provider FAILED
+[2020-04-08 18:38:35.053] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:386:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:386:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:375:558)
+	at asSymbolInformation (/home/youssef/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/youssef/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/youssef/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/youssef/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-08 18:38:46.318] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2020-04-08 18:38:46.334] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain

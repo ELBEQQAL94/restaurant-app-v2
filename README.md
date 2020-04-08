@@ -13,7 +13,11 @@
 - [x] Install vuetify
 - [ ] Create landing page
 - [ ] Create About page
-- [ ] Add vue router
+- [x] Add vue router
+- [x] Login with google
+- [ ] Login with facebook
+- [ ] Login with intagrame
+- [ ] login with github
 
 ### Backe End `Node/Express`
 
@@ -47,6 +51,10 @@ npm run dev
 - [x] Create db file to connect server with database
 - [x] Initialize passport
 - [x] Serialize and Deserialize the user
+- [x] Login with google
+- [ ] Login with facebook
+- [ ] Login with intagram
+- [ ] Login with github
 
 ### Database `Postgresql`:
 
