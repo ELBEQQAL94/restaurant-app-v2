@@ -65,7 +65,7 @@ npm run dev
 - [x] Createdb restaurant-db
 - [x] npx knex init
 - [x] Modeling database:
-  - https://www.lucidchart.com/invitations/accept/41a10131-9dfc-4b4e-a00e-e8c956b5b1ea)
+  - https://www.lucidchart.com/invitations/accept/41a10131-9dfc-4b4e-a00e-e8c956b5b1ea
 - [x] Create migrations
 - [x] run migrations
 - [x] Create seeds
@@ -80,7 +80,7 @@ npm run dev
 ---
 
 - [x] Backend Deployed!
-- [ ](https://restaurant-webapp-server.herokuapp.com/)
+- https://restaurant-webapp-server.herokuapp.com/
 
 ### Deploy Database Postgres on `heroku`
 
@@ -97,13 +97,13 @@ npm run dev
 - [x] heroku pg:psql
 - [x] Deployed!
 
-* [ ](https://restaurant-webapp-database.herokuapp.com/)
+* https://restaurant-webapp-database.herokuapp.com/
 
 ### Deploy Front End On Now
 
 ---
 
-- [ ](https://retaurant-webapp.now.sh/#/)
+- https://retaurant-webapp.now.sh/#/
 
 ### Screen shot for the App
 
