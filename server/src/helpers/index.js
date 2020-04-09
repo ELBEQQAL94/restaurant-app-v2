@@ -1,4 +1,5 @@
 const jwt = require("jsonwebtoken");
+const users = require("../../queries/users");
 
 // page not found
 function notFound(req, res, next) {

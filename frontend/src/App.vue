@@ -9,20 +9,25 @@
 
 <script>
 import Header from "@/components/Header";
+import { mapActions } from "vuex";
 
 export default {
   name: "App",
 
   components: {
-    Header,
+    Header
   },
-
   data() {
     return {
       tab: null,
-      items: ["home", "about"],
+      items: ["home", "about"]
     };
   },
+  mounted() {
+    this.login(localStorage.token);
+    //this.loadCategories();
+  },
+  methods: mapActions(["login"])
 };
 </script>
 <style>

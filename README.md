@@ -11,13 +11,26 @@
   - vue create .
 - [x] Create simple "hello worlde" page
 - [x] Install vuetify
+- [x] Install vuex
 - [ ] Create landing page
 - [ ] Create About page
 - [x] Add vue router
 - [x] Login with google
 - [ ] Login with facebook
-- [ ] Login with intagrame
-- [ ] login with github
+- [x] Add token to clien
+- [ ] Create store
+- [ ] Create 404 page
+- [ ] Create an admin pages can:
+  - [ ] add category
+  - [ ] add product
+  - [ ] add person to team
+  - [ ] update category
+  - [ ] update product
+  - [ ] update teams
+  - [ ] remove user
+  - [ ] update user
+  - [ ] make user an admin
+  - [ ] banned bad review
 
 ### Backe End `Node/Express`
 
@@ -53,8 +66,18 @@ npm run dev
 - [x] Serialize and Deserialize the user
 - [x] Login with google
 - [ ] Login with facebook
-- [ ] Login with intagram
-- [ ] Login with github
+- [ ] Create an admin
+- [ ] Create an admin route can:
+  - [ ] add category
+  - [ ] add product
+  - [ ] add person to team
+  - [ ] update category
+  - [ ] update product
+  - [ ] update teams
+  - [ ] remove user
+  - [ ] update user
+  - [ ] make user an admin
+  - [ ] banned bad review
 
 ### Database `Postgresql`:
 
@@ -65,8 +88,16 @@ npm run dev
 - [x] Createdb restaurant-db
 - [x] npx knex init
 - [x] Modeling database:
-  - https://www.lucidchart.com/invitations/accept/41a10131-9dfc-4b4e-a00e-e8c956b5b1ea
+  - ![](https://www.lucidchart.com/invitations/accept/41a10131-9dfc-4b4e-a00e-e8c956b5b1ea)
 - [x] Create migrations
+  - [x] users
+  - [x] role
+  - [ ] product
+  - [ ] order
+  - [ ] team
+  - [ ] product_category
+  - [ ] product_review
+  - [ ] position
 - [x] run migrations
 - [x] Create seeds
 - [x] run seeds
@@ -80,7 +111,7 @@ npm run dev
 ---
 
 - [x] Backend Deployed!
-- https://restaurant-webapp-server.herokuapp.com/
+- ![](https://restaurant-webapp-server.herokuapp.com/)
 
 ### Deploy Database Postgres on `heroku`
 
@@ -97,13 +128,13 @@ npm run dev
 - [x] heroku pg:psql
 - [x] Deployed!
 
-* https://restaurant-webapp-database.herokuapp.com/
+* ![](https://restaurant-webapp-database.herokuapp.com/)
 
 ### Deploy Front End On Now
 
 ---
 
-- https://retaurant-webapp.now.sh/#/
+- ![](https://retaurant-webapp.now.sh/#/)
 
 ### Screen shot for the App
 
@@ -125,3 +156,62 @@ npm run dev
 
 * knex.js
 * postgresql
+
+CREATE TABLE `Order` (
+`id` serial,
+`product_id` unsigned_int,
+`created_at` date,
+`updated_at` date,
+`user_id` unsigned_int,
+PRIMARY KEY (`id`),
+KEY `FK` (`product_id`, `user_id`)
+);
+
+CREATE TABLE `Product` (
+`id` serial,
+`name` texy,
+`price` decimal,
+`product_category_id` unsigned_int,
+`origine` text,
+`open` date,
+`closed` date,
+`image_url` text,
+`team_id` unsigned_int,
+`created_at` date,
+`updated_at` date,
+`description` text,
+`recipe` text,
+PRIMARY KEY (`id`),
+KEY `FK` (`product_category_id`, `team_id`)
+);
+
+CREATE TABLE `Position` (
+`id` serial,
+`name` text,
+PRIMARY KEY (`id`)
+);
+
+CREATE TABLE `Team` (
+`id` serial,
+`firstname` text,
+`lastname` text,
+`email` text,
+`phone` number,
+`image_url` text,
+`position_id` unsigned_int,
+`created_at` date,
+`updated_at` date,
+PRIMARY KEY (`id`),
+KEY `FK` (`position_id`)
+);
+
+CREATE TABLE `product_review` (
+`id` serial,
+`product_id` unsigned_int,
+`user_id` unsigned_int,
+`description` text,
+`created_at` date,
+`updated_at` date,
+PRIMARY KEY (`id`),
+KEY `FK` (`product_id`, `user_id`)
+);

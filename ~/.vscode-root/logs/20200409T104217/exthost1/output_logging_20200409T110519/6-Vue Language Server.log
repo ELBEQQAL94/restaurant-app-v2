@@ -1,0 +1,54 @@
+Loaded bundled typescript@3.7.5.
+Vetur initialized
+[Error - 11:05:22 AM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 11:05:22 AM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 11:05:22 AM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 11:05:22 AM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 11:05:48 AM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 11:06:04 AM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 11:14:42 AM] Request textDocument/signatureHelp failed.
+  Message: Request textDocument/signatureHelp failed with message: Cannot read property 'emitNode' of undefined
+  Code: -32603 
+[Error - 11:14:42 AM] Request textDocument/signatureHelp failed.
+  Message: Request textDocument/signatureHelp failed with message: Cannot read property 'emitNode' of undefined
+  Code: -32603 
+[Error - 11:14:44 AM] Request textDocument/signatureHelp failed.
+  Message: Request textDocument/signatureHelp failed with message: Cannot read property 'emitNode' of undefined
+  Code: -32603 
+{ parser: "babylon" } is deprecated; we now treat it as { parser: "babel" }.
+[Error - 11:57:45 AM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 11:57:45 AM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 11:57:45 AM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 11:57:47 AM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 11:57:47 AM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+Prettier format failed
+[Error - 12:08:19 PM] Unexpected token, expected ";" (4:25)
+  2 | export default {
+  3 |   mounted() {
+> 4 |     const admin = await this.isAdmin();
+    |                         ^
+  5 |     if (!admin) {
+  6 |       this.$router.push("/forum");
+  7 |     }

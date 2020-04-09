@@ -1,0 +1,58 @@
+[2020-04-09 14:50:22.789] [exthost] [info] extension host started
+[2020-04-09 14:50:23.098] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:javascript"}
+[2020-04-09 14:50:23.099] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2020-04-09 14:50:23.295] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-04-09 14:50:23.295] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-04-09 14:50:23.403] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-04-09 14:50:23.403] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/extension
+[2020-04-09 14:50:23.589] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-04-09 14:50:23.589] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2020-04-09 14:50:24.243] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":true,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"*"}
+[2020-04-09 14:50:24.247] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2020-04-09 14:50:24.333] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-04-09 14:50:24.333] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2020-04-09 14:50:24.407] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-04-09 14:50:24.413] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/search-result/dist/extension.js
+[2020-04-09 14:50:24.462] [exthost] [info] ExtensionService#_doActivateExtension vscode.vscode-account {"startup":true,"extensionId":{"value":"vscode.vscode-account","_lower":"vscode.vscode-account"},"activationEvent":"*"}
+[2020-04-09 14:50:24.465] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/vscode-account/dist/extension.js
+[2020-04-09 14:50:24.541] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":true,"extensionId":{"value":"esbenp.prettier-vscode","_lower":"esbenp.prettier-vscode"},"activationEvent":"*"}
+[2020-04-09 14:50:24.541] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/youssef/.vscode/extensions/esbenp.prettier-vscode-4.1.1/dist/extension
+[2020-04-09 14:50:26.122] [exthost] [info] eager extensions activated
+[2020-04-09 14:57:54.199] [exthost] [info] [vscode.typescript-language-features] UNSAVE result from 'resolveCompletionItem', extension SHOULD NOT change any of: additionalTextEdits, or command
+[2020-04-09 14:58:07.280] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-09 14:58:07.282] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-09 14:58:07.685] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-09 14:58:07.685] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-09 14:58:08.912] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-09 14:58:08.913] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-09 14:58:09.443] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-09 14:58:09.444] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-09 14:58:10.353] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-09 14:58:10.353] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-09 14:58:10.839] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-09 14:58:10.839] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-09 14:58:14.925] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-09 14:58:14.925] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-09 14:58:17.350] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-09 14:58:17.350] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-09 14:58:22.989] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:typescript"}
+[2020-04-09 14:58:22.997] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/extension-editing/dist/extension
+[2020-04-09 14:58:36.765] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-09 14:58:36.766] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-09 14:58:40.443] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-09 14:58:40.443] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-09 15:00:32.014] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-09 15:00:32.015] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-09 15:02:46.407] [exthost] [info] ExtensionService#_doActivateExtension octref.vetur {"startup":false,"extensionId":{"value":"octref.vetur","_lower":"octref.vetur"},"activationEvent":"onLanguage:vue"}
+[2020-04-09 15:02:46.408] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/youssef/.vscode/extensions/octref.vetur-0.24.0/dist/client/vueMain

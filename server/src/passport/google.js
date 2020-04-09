@@ -27,6 +27,8 @@ passport.use(
         image_url: profile.photos[0].value,
         phone: "+212675058801",
         role_id: 1,
+        // updated_at: Date.now(),
+        // created_at: Date.now(),
       };
       try {
         let user = await users.findUserByEmail(email);
@@ -36,6 +38,10 @@ passport.use(
           user = await users.update(user.id, googleUser);
         } else {
           // insert user
+          const admins = await users.findAdmins();
+          if (admins.length === 0) {
+            googleUser.role_id = 2;
+          }
           user = await users.insert(googleUser);
         }
         return cb(null, user);

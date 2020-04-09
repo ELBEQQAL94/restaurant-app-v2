@@ -1,0 +1,26 @@
+Loaded bundled typescript@3.7.5.
+Vetur initialized
+{ parser: "babylon" } is deprecated; we now treat it as { parser: "babel" }.
+Prettier format failed
+[Error - 5:04:04 PM] Unexpected token, expected ";" (17:10)
+  15 |   methods: mapActions(['login']),
+  16 | };
+> 17 |   data() {
+     |          ^
+  18 |     return {
+  19 |       tab: null,
+  20 |       items: ["home", "about"],
+Prettier format failed
+[Error - 5:05:00 PM] Unexpected token (23:1)
+  21 |   methods: mapActions(['login']),
+  22 | }
+> 23 | };
+     | ^
+  24 | 
+Prettier format failed
+[Error - 5:05:02 PM] Unexpected token (23:1)
+  21 |   methods: mapActions(['login']),
+  22 | }
+> 23 | };
+     | ^
+  24 | 

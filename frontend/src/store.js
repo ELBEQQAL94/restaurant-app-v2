@@ -1,17 +1,40 @@
 import Vue from "vue";
 import Vuex from "vuex";
+import { parseJwt } from "./helpers";
 
 Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    overlay: false,
+    token: "",
+    user: null,
   },
   mutations: {
-    triggerOverlay() {
-      this.state.overlay = !this.state.overlay;
+    setToken(state, token) {
+      state.token = token;
+    },
+    setUser(state, user) {
+      state.user = user;
     },
   },
-  getters: {},
-  actions: {},
+  getters: {
+    isLoggedIn(state) {
+      return !!state.user;
+    },
+  },
+  actions: {
+    login({ commit }, token) {
+      if (token) {
+        commit("setToken", token);
+        const user = parseJwt(token);
+        commit("setUser", user);
+      } else {
+        commit("setToken", "");
+        commit("setUser", null);
+      }
+    },
+    isAdmin({ state }) {
+      return state.user.role_id === 2;
+    },
+  },
 });

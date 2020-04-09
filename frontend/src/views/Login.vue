@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h1>Hello Login</h1>
-    <p>{{ $route.params.token }}</p>
+    <h1>Logging in...</h1>
   </div>
 </template>
 
@@ -10,3 +9,20 @@ div {
   color: #ffffff !important;
 }
 </style>
+
+<script>
+import { mapActions } from "vuex";
+
+export default {
+  mounted() {
+    const { token } = this.$route.params;
+    if (token) {
+      this.login(token);
+      this.$router.push("/forum");
+    } else {
+      this.$router.push("/login");
+    }
+  },
+  methods: mapActions(["login"])
+};
+</script>

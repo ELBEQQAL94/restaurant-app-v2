@@ -5,15 +5,17 @@
 
 const { users } = require("../src/db/constants");
 
+const { image_url, createId } = require("../helpers");
+
 exports.up = async (knex) => {
   await knex.schema.createTable(users, (table) => {
-    table.increments();
+    createId(table);
     table.string("username", 254).notNullable();
     table.string("email", 254).notNullable().unique();
     table.string("password", 254);
     table.string("google_id", 254).notNullable();
     table.string("phone", 254);
-    table.string("image_url", 254);
+    image_url(table);
     table.boolean("active").notNullable().default(true);
     table.timestamps();
   });

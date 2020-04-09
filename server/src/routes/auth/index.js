@@ -17,6 +17,16 @@ router.post("/signup", validateSignUpUser, signUp);
 // POST /auth/signup
 router.post("/login", validateLoginUser, logIn);
 
+router.get("/isAdmin", async (req, res) => {
+  if (req.user) {
+    if (req.user.role_id === 2) {
+      return res.json({ isAdmin: true });
+    }
+  } else {
+    res.json({ isAdmin: false });
+  }
+});
+
 // Login using google strategie
 
 router.get(

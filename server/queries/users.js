@@ -20,13 +20,16 @@ module.exports = {
     const rows = await db("users").where("id", id).update(user, "*");
     return rows[0];
   },
-  insert(user) {
+  async insert(user) {
     const result = schema.validate(user);
     if (result.error) {
-      console.log(result);
-      // return Promise.reject(result);
+      return Promise.reject(result);
     } else {
-      return db("users").insert(user);
+      const rows = await db("users").insert(user, "*");
+      return rows[0];
     }
+  },
+  findAdmins() {
+    return db("users").where("role_id", 2);
   },
 };
