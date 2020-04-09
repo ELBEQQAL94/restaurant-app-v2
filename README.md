@@ -65,7 +65,7 @@ npm run dev
 - [x] Createdb restaurant-db
 - [x] npx knex init
 - [x] Modeling database:
-  - [ ](https://www.lucidchart.com/invitations/accept/41a10131-9dfc-4b4e-a00e-e8c956b5b1ea)
+  - https://www.lucidchart.com/invitations/accept/41a10131-9dfc-4b4e-a00e-e8c956b5b1ea)
 - [x] Create migrations
 - [x] run migrations
 - [x] Create seeds
