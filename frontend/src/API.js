@@ -7,6 +7,29 @@ if (window.location.hostname === "localhost") {
 }
 
 export async function isAdmin() {
-  const response = await axios.get(`${API_URL}/auth/isAdmin`);
-  return response.json();
+  try {
+    const response = await axios.get(`${API_URL}/auth/isAdmin`);
+    return response.json();
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+// request get all categories
+export async function getAllCategories() {
+  // try {
+  //   const response = await axios.get(`${API_URL}/api/v1/categories`);
+  //   return response.data;
+  // } catch (error) {
+  //   console.error(error);
+  // }
+
+  return axios
+    .get(`${API_URL}/api/v1/categories`)
+    .then((response) => {
+      return response.data.categories;
+    })
+    .catch((error) => {
+      console.log("Error: ", error);
+    });
 }

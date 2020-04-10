@@ -1,6 +1,7 @@
 import Vue from "vue";
 import Vuex from "vuex";
 import { parseJwt } from "./helpers";
+import { getAllCategories } from "./API";
 
 Vue.use(Vuex);
 
@@ -8,6 +9,7 @@ export default new Vuex.Store({
   state: {
     token: "",
     user: null,
+    categories: [],
   },
   mutations: {
     setToken(state, token) {
@@ -15,6 +17,9 @@ export default new Vuex.Store({
     },
     setUser(state, user) {
       state.user = user;
+    },
+    setCategories(state, categories) {
+      state.categories = categories;
     },
   },
   getters: {
@@ -35,6 +40,11 @@ export default new Vuex.Store({
     },
     isAdmin({ state }) {
       return state.user.role_id === 2;
+    },
+    async loadCategories({ commit }) {
+      const categories = await getAllCategories();
+      console.log(categories);
+      commit("setCategories", categories);
     },
   },
 });

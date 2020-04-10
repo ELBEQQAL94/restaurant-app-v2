@@ -1,6 +1,7 @@
 const Joi = require("@hapi/joi");
 const db = require("../db");
 const { users } = require("../db/tableNames");
+const { insertIntoTableAndValidate } = require("./index");
 
 const schema = Joi.object({
   username: Joi.string().min(3).max(30).required(),

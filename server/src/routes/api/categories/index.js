@@ -14,6 +14,6 @@ const {
 router.get("/", getCategories);
 
 // POST category
-router.post("/", checkAuthHeaderSetUser, isAdmin, createCategory);
+router.post("/", /*checkAuthHeaderSetUser, isAdmin,*/ createCategory);
 
 module.exports = router;

@@ -1,17 +1,29 @@
 <template>
-  <h1>Admin Page</h1>
+  <ul>
+    <li v-for="category in categories" :key="category.id">{{category.name}}</li>
+  </ul>
 </template>
 
 <script>
-import { mapActions } from "vuex";
+import { mapState, mapActions } from "vuex";
 
 export default {
   mounted() {
-    const admin = this.isAdmin();
-    if (!admin) {
-      this.$router.push("/forum");
-    }
+    // const admin = this.isAdmin();
+    // if (!admin) {
+    //   this.$router.push("/forum");
+    // } else {
+    //   this.loadCategories();
+    // }
+    this.loadCategories();
   },
-  methods: mapActions(["isAdmin"])
+  computed: mapState(["categories"]),
+  methods: mapActions(["isAdmin", "loadCategories"])
 };
 </script>
+
+<style scoped>
+.categories {
+  color: #ffffff;
+}
+</style>

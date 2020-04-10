@@ -22,10 +22,10 @@ function checkAuthHeaderSetUser(req, res, next) {
     if (token) {
       verifyToken(token, req, next);
     } else {
-      next(error);
+      next();
     }
   } else {
-    next(error);
+    next();
   }
 }
 
