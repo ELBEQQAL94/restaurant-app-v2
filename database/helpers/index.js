@@ -3,7 +3,7 @@ function reference(table, name) {
 }
 
 function image_url(table) {
-  table.string("image_url", 254);
+  table.string("image_url", 2000);
 }
 
 function createId(table) {
@@ -11,7 +11,7 @@ function createId(table) {
 }
 
 function description(table) {
-  table.string("description", 254).notNullable();
+  table.string("description", 254);
 }
 
 module.exports = {

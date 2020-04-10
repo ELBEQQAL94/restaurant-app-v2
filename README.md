@@ -62,6 +62,15 @@ npm run dev
 - [x] Create auth route for handle auth using google session
 - [x] Connect with database using knexfile, pg
 - [x] Create db file to connect server with database
+- [ ] Add queries
+  - [x] users
+  - [x] role
+  - [x] product_category
+  - [ ] product
+  - [ ] order
+  - [ ] team
+  - [ ] position
+  - [ ] product_review
 - [x] Initialize passport
 - [x] Serialize and Deserialize the user
 - [x] Login with google
@@ -69,13 +78,20 @@ npm run dev
 - [ ] Create an admin
 - [ ] Create an admin route can:
   - [ ] add category
-  - [ ] add product
-  - [ ] add person to team
+  - [ ] remove category
   - [ ] update category
+  - [ ] get category
+  - [ ] add product
   - [ ] update product
-  - [ ] update teams
+  - [ ] get product
+  - [ ] remove product
+  - [ ] add person to team
+  - [ ] update person
+  - [ ] remove person
+  - [ ] get team
   - [ ] remove user
   - [ ] update user
+  - [ ] get users
   - [ ] make user an admin
   - [ ] banned bad review
 
@@ -88,14 +104,14 @@ npm run dev
 - [x] Createdb restaurant-db
 - [x] npx knex init
 - [x] Modeling database:
-  - ![](https://www.lucidchart.com/invitations/accept/41a10131-9dfc-4b4e-a00e-e8c956b5b1ea)
+  - https://www.lucidchart.com/invitations/accept/41a10131-9dfc-4b4e-a00e-e8c956b5b1ea
 - [x] Create migrations
   - [x] users
   - [x] role
   - [ ] product
   - [ ] order
   - [ ] team
-  - [ ] product_category
+  - [x] product_category
   - [ ] product_review
   - [ ] position
 - [x] run migrations
@@ -111,7 +127,7 @@ npm run dev
 ---
 
 - [x] Backend Deployed!
-- ![](https://restaurant-webapp-server.herokuapp.com/)
+- https://restaurant-webapp-server.herokuapp.com/
 
 ### Deploy Database Postgres on `heroku`
 
@@ -128,13 +144,13 @@ npm run dev
 - [x] heroku pg:psql
 - [x] Deployed!
 
-* ![](https://restaurant-webapp-database.herokuapp.com/)
+* https://restaurant-webapp-database.herokuapp.com/
 
 ### Deploy Front End On Now
 
 ---
 
-- ![](https://retaurant-webapp.now.sh/#/)
+- https://retaurant-webapp.now.sh/#/
 
 ### Screen shot for the App
 

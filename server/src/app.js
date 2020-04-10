@@ -9,6 +9,7 @@ const { notFound, errorHandler } = require("./helpers");
 const auth = require("./routes/auth");
 const notes = require("./routes/api/notes");
 const users = require("./routes/api/users");
+const categories = require("./routes/api/categories");
 
 const {
   checkAuthHeaderSetUser,
@@ -36,6 +37,7 @@ app.get("/", (req, res) => {
 });
 
 app.use("/auth", auth);
+app.use("/api/v1/categories", categories);
 // // app.use('/api/v1/notes', IsLoogedIn, notes);
 // app.use('/user/notes', IsLoogedIn, notes);
 // app.use('/api/v1/users', IsLoogedIn, isAdmin, users);

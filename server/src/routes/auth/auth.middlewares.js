@@ -15,22 +15,22 @@ function IsLoogedIn(req, res, next) {
 
 function checkAuthHeaderSetUser(req, res, next) {
   const authorization = req.get("authorization");
-
+  const error = new Error("Un-Authorized!");
   if (authorization) {
     const token = authorization.split(" ")[1];
 
     if (token) {
       verifyToken(token, req, next);
     } else {
-      next();
+      next(error);
     }
   } else {
-    next();
+    next(error);
   }
 }
 
 function isAdmin(req, res, next) {
-  if (req.user.role === "admin") {
+  if (req.user && req.user.role_id === 2) {
     next();
   } else {
     const error = new Error("unauthorized.");

@@ -373,3 +373,22 @@ Open repository: /home/youssef/Downloads/opt/restaurant-app-v2
 > git cat-file -s 892478d0759c4bcdfcb0c64174a373fe03088712
 > git show :database/migrations/20200409184836_product_category.js
 > git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/database/migrations/20200409184836_product_category.js
+> git status -z -u
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/database/migrations/20200409184836_product_category.js
+> git symbolic-ref --short HEAD
+> git cat-file -s 079718593055733818afd06e13e618ee71af554c
+> git rev-parse master
+> git show :database/migrations/20200409184836_product_category.js
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template

@@ -1,5 +1,6 @@
 const Joi = require("@hapi/joi");
 const db = require("../db");
+const { users } = require("../db/tableNames");
 
 const schema = Joi.object({
   username: Joi.string().min(3).max(30).required(),
@@ -14,22 +15,16 @@ const schema = Joi.object({
 
 module.exports = {
   findUserByEmail(email) {
-    return db("users").where("email", email).first();
+    return db(users).where("email", email).first();
   },
   async update(id, user) {
-    const rows = await db("users").where("id", id).update(user, "*");
+    const rows = await db(users).where("id", id).update(user, "*");
     return rows[0];
   },
-  async insert(user) {
-    const result = schema.validate(user);
-    if (result.error) {
-      return Promise.reject(result);
-    } else {
-      const rows = await db("users").insert(user, "*");
-      return rows[0];
-    }
+  insert(user) {
+    return insertIntoTableAndValidate(user, users, schema);
   },
   findAdmins() {
-    return db("users").where("role_id", 2);
+    return db(users).where("role_id", 2);
   },
 };
