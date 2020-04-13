@@ -1,5 +1,10 @@
 function reference(table, name) {
-  table.integer(`${name}_id`).unsigned().references("id").inTable("role");
+  table
+    .integer(`${name}_id`)
+    .unsigned()
+    .references("id")
+    .inTable("role")
+    .onDelete("cascade");
 }
 
 function image_url(table) {
@@ -11,7 +16,23 @@ function createId(table) {
 }
 
 function description(table) {
-  table.string("description", 254);
+  table.string("description");
+}
+
+function addDefaultColumns(table) {
+  table.timestamps(false, true);
+}
+
+function email(table) {
+  table.string("email").notNullable().unique();
+}
+
+function phone(table) {
+  table.string("phone");
+}
+
+function name(table) {
+  table.string("name", 254).notNullable().unique();
 }
 
 module.exports = {
@@ -19,4 +40,8 @@ module.exports = {
   image_url,
   createId,
   description,
+  addDefaultColumns,
+  email,
+  phone,
+  name,
 };

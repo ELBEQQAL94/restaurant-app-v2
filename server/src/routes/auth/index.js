@@ -27,8 +27,6 @@ router.get("/isAdmin", async (req, res) => {
   }
 });
 
-// Login using google strategie
-
 router.get(
   "/google",
   passport.authenticate("google", { scope: ["profile", "email"] })
@@ -39,26 +37,13 @@ router.get("/google/callback", (req, res, next) => {
     if (err) {
       return next(err);
     }
-
-    // if (!user) {
-    //   res.redirect("/login");
-    // }
     try {
       const token = await createTokenSendResponse(user);
 
       res.redirect(`${process.env.RIDERECT_CLIENT_URL}/${token}`);
     } catch (error) {
-      res.redirect(`${process.env.RIDERECT_CLIENT_URL_ERROR}/${error.message}`);
+      res.redirect(`${process.env.RIDERECT_CLIENT_URL_ERROR}/`);
     }
-    // Create JWT
-
-    // Establish session for auth user
-    // req.logIn(user, function (err) {
-    //   if (err) {
-    //     return next(err);
-    //   }
-    //   return res.redirect("/users/" + user.username);
-    // });
   })(req, res, next);
 });
 

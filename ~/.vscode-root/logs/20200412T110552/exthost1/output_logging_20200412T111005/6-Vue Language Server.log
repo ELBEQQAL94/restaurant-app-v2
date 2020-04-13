@@ -1,0 +1,21 @@
+Loaded bundled typescript@3.7.5.
+Vetur initialized
+[Error - 11:10:29 AM] Request textDocument/signatureHelp failed.
+  Message: Request textDocument/signatureHelp failed with message: Cannot read property 'emitNode' of undefined
+  Code: -32603 
+[Error - 11:10:29 AM] Request textDocument/signatureHelp failed.
+  Message: Request textDocument/signatureHelp failed with message: Cannot read property 'emitNode' of undefined
+  Code: -32603 
+[Error - 11:10:29 AM] Request textDocument/signatureHelp failed.
+  Message: Request textDocument/signatureHelp failed with message: Cannot read property 'emitNode' of undefined
+  Code: -32603 
+[Error - 11:10:29 AM] Request textDocument/signatureHelp failed.
+  Message: Request textDocument/signatureHelp failed with message: Cannot read property 'emitNode' of undefined
+  Code: -32603 
+[Error - 11:10:29 AM] Request textDocument/signatureHelp failed.
+  Message: Request textDocument/signatureHelp failed with message: Cannot read property 'emitNode' of undefined
+  Code: -32603 
+[Error - 11:10:29 AM] Request textDocument/signatureHelp failed.
+  Message: Request textDocument/signatureHelp failed with message: Cannot read property 'emitNode' of undefined
+  Code: -32603 
+{ parser: "babylon" } is deprecated; we now treat it as { parser: "babel" }.

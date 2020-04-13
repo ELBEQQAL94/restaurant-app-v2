@@ -1,9 +1,11 @@
-const { role } = require("../src/db/constants");
+const { role } = require("../src/db/tableNames");
+const { name, addDefaultColumns } = require("../helpers");
 
 exports.up = async (knex) => {
   await knex.schema.createTable(role, (table) => {
     table.increments();
-    table.string("name", 254).notNullable();
+    name(table);
+    addDefaultColumns(table);
   });
 };
 

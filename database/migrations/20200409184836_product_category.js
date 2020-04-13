@@ -1,13 +1,11 @@
-const { image_url, createId, description } = require("../helpers");
-const { productCategory } = require("../src/db/constants");
+const { createId, name, addDefaultColumns } = require("../helpers");
+const { productCategory } = require("../src/db/tableNames");
 
 exports.up = async (knex) => {
   await knex.schema.createTable(productCategory, (table) => {
     createId(table);
-    table.string("name", 254).notNullable().unique();
-    description(table);
-    image_url(table);
-    table.timestamps();
+    name(table);
+    addDefaultColumns(table);
   });
 };
 

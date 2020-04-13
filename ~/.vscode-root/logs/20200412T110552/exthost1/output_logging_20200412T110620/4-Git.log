@@ -1,0 +1,65 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/youssef/Downloads/opt/restaurant-app-v2
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git show :frontend/src/API.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/frontend/src/API.js
+> git cat-file -s 3dce5d9d442610a02269cc53ab5538f65cde0990
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show :frontend/src/components/Header.vue
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/frontend/src/components/Header.vue
+> git cat-file -s 276a44d9f22dbfbbf79e0a1c29da251bcac79d5f
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show :server/src/controller/auth/helpers/index.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/controller/auth/helpers/index.js
+> git cat-file -s 0712e2a3eaaeb696d48f17d3a06a46b70579a1bd
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :server/src/routes/auth/auth.middlewares.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/routes/auth/auth.middlewares.js
+> git cat-file -s 33cb82ff9b7a623e38fb8b27782112fb83e4be79
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :frontend/package.json
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/frontend/package.json
+> git cat-file -s 84abb34024be60d577e8f5c521fadb151e2db5c0
+> git show :server/.env
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/.env
+> git check-ignore -v -z --stdin
+> git show :server/knexfile.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/knexfile.js
+> git cat-file -s 0521942396173c9d075971c00eac203f402cf9cd
+> git show :server/.env
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/.env

@@ -31,7 +31,7 @@ function checkAuthHeaderSetUser(req, res, next) {
 
 function isAdmin(req, res, next) {
   if (req.user && req.user.role_id === 2) {
-    next();
+    return next();
   } else {
     const error = new Error("unauthorized.");
     res.status(401);
