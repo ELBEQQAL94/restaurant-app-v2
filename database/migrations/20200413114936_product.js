@@ -12,11 +12,7 @@ exports.up = async (knex) => {
     createId(table);
     table.string("name").notNullable();
     table.string("price").notNullable();
-    table.string("origin").notNullable();
-    table.string("recipe");
     description(table);
-    table.datetime("open", { precision: 6 }).defaultTo(knex.fn.now(6));
-    table.datetime("closed", { precision: 6 }).defaultTo(knex.fn.now(6));
     image_url(table);
     addDefaultColumns(table);
   });

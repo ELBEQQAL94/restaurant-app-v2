@@ -8,7 +8,7 @@ exports.up = async (knex) => {
 };
 
 exports.down = async (knex) => {
-  await knex.schema.table("users", (table) => {
+  await knex.schema.table(users, (table) => {
     table.dropColumn("product_id");
   });
 };

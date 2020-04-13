@@ -1,4 +1,4 @@
-const { role } = require("../src/db/constants");
+const { role } = require("../src/db/tableNames");
 
 exports.seed = async (knex) => {
   await knex(role).del();

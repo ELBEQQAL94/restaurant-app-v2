@@ -700,3 +700,393 @@ Error: Debug Failure. False expression: Expected line to be non-zero
 [2020-04-13 13:21:55.360] [exthost] [error] [vscode.typescript-language-features] provider FAILED
 [2020-04-13 13:21:55.360] [exthost] [error] Error: busy
 	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-13 13:33:55.385] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-13 13:33:55.386] [exthost] [error] Error: <syntax> TypeScript Server Error (3.8.3)
+Debug Failure. False expression: Expected line to be non-zero
+Error: Debug Failure. False expression: Expected line to be non-zero
+    at failIfInvalidLocation (tsserver.js:138899:22)
+    at ScriptInfo.positionToLineOffset (tsserver.js:138872:17)
+    at toProtocolTextSpan (tsserver.js:146077:35)
+    at tsserver.js:145608:68
+    at Array.map (<anonymous>)
+    at IOSession.Session.toLocationNavigationTree (tsserver.js:145608:39)
+    at IOSession.Session.getNavigationTree (tsserver.js:145619:32)
+    at Session.handlers.ts.createMapFromTemplate._a.<computed> (tsserver.js:144481:61)
+    at tsserver.js:146003:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:145994:28)
+    at IOSession.Session.executeCommand (tsserver.js:146003:33)
+    at IOSession.Session.onMessage (tsserver.js:146027:35)
+    at Interface.<anonymous> (tsserver.js:147342:27)
+    at Interface.emit (events.js:203:13)
+    at Interface._onLine (readline.js:316:10)
+    at Interface._normalWrite (readline.js:461:12)
+    at Socket.ondata (readline.js:172:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:49958)
+	at h.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:216914)
+	at h.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215832)
+	at /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215308
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:845)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223870)
+	at Socket.<anonymous> (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223518)
+	at Socket.emit (events.js:203:13)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:276:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-04-13 13:34:18.264] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-13 13:34:18.264] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-13 13:34:33.295] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-13 13:34:33.295] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-13 13:34:35.847] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-13 13:34:35.847] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-13 13:35:53.047] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-13 13:35:53.047] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-13 14:46:26.366] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-13 14:46:26.366] [exthost] [error] Error: <syntax> TypeScript Server Error (3.8.3)
+Debug Failure. False expression: Expected line to be non-zero
+Error: Debug Failure. False expression: Expected line to be non-zero
+    at failIfInvalidLocation (tsserver.js:138899:22)
+    at ScriptInfo.positionToLineOffset (tsserver.js:138872:17)
+    at toProtocolTextSpan (tsserver.js:146077:35)
+    at tsserver.js:145608:68
+    at Array.map (<anonymous>)
+    at IOSession.Session.toLocationNavigationTree (tsserver.js:145608:39)
+    at IOSession.Session.getNavigationTree (tsserver.js:145619:32)
+    at Session.handlers.ts.createMapFromTemplate._a.<computed> (tsserver.js:144481:61)
+    at tsserver.js:146003:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:145994:28)
+    at IOSession.Session.executeCommand (tsserver.js:146003:33)
+    at IOSession.Session.onMessage (tsserver.js:146027:35)
+    at Interface.<anonymous> (tsserver.js:147342:27)
+    at Interface.emit (events.js:203:13)
+    at Interface._onLine (readline.js:316:10)
+    at Interface._normalWrite (readline.js:461:12)
+    at Socket.ondata (readline.js:172:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:49958)
+	at h.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:216914)
+	at h.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215832)
+	at /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215308
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:845)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223870)
+	at Socket.<anonymous> (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223518)
+	at Socket.emit (events.js:203:13)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:276:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-04-13 14:51:52.984] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-13 14:51:52.984] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-13 14:53:07.547] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-13 14:53:07.547] [exthost] [error] Error: <syntax> TypeScript Server Error (3.8.3)
+Debug Failure. False expression: Expected line to be non-zero
+Error: Debug Failure. False expression: Expected line to be non-zero
+    at failIfInvalidLocation (tsserver.js:138899:22)
+    at ScriptInfo.positionToLineOffset (tsserver.js:138872:17)
+    at toProtocolTextSpan (tsserver.js:146077:35)
+    at tsserver.js:145608:68
+    at Array.map (<anonymous>)
+    at IOSession.Session.toLocationNavigationTree (tsserver.js:145608:39)
+    at IOSession.Session.getNavigationTree (tsserver.js:145619:32)
+    at Session.handlers.ts.createMapFromTemplate._a.<computed> (tsserver.js:144481:61)
+    at tsserver.js:146003:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:145994:28)
+    at IOSession.Session.executeCommand (tsserver.js:146003:33)
+    at IOSession.Session.onMessage (tsserver.js:146027:35)
+    at Interface.<anonymous> (tsserver.js:147342:27)
+    at Interface.emit (events.js:203:13)
+    at Interface._onLine (readline.js:316:10)
+    at Interface._normalWrite (readline.js:461:12)
+    at Socket.ondata (readline.js:172:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:49958)
+	at h.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:216914)
+	at h.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215832)
+	at /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215308
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:845)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223870)
+	at Socket.<anonymous> (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223518)
+	at Socket.emit (events.js:203:13)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:276:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-04-13 15:00:07.953] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-13 15:00:07.954] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-13 15:00:41.215] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-13 15:00:41.215] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-13 15:00:48.056] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-13 15:00:48.056] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-13 15:04:18.523] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-13 15:04:18.523] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-13 15:06:33.567] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-13 15:06:33.567] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-13 15:09:30.664] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-13 15:09:30.671] [exthost] [error] Error: <syntax> TypeScript Server Error (3.8.3)
+Debug Failure. False expression: Expected line to be non-zero
+Error: Debug Failure. False expression: Expected line to be non-zero
+    at failIfInvalidLocation (tsserver.js:138899:22)
+    at ScriptInfo.positionToLineOffset (tsserver.js:138872:17)
+    at toProtocolTextSpan (tsserver.js:146077:35)
+    at tsserver.js:145608:68
+    at Array.map (<anonymous>)
+    at IOSession.Session.toLocationNavigationTree (tsserver.js:145608:39)
+    at IOSession.Session.getNavigationTree (tsserver.js:145619:32)
+    at Session.handlers.ts.createMapFromTemplate._a.<computed> (tsserver.js:144481:61)
+    at tsserver.js:146003:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:145994:28)
+    at IOSession.Session.executeCommand (tsserver.js:146003:33)
+    at IOSession.Session.onMessage (tsserver.js:146027:35)
+    at Interface.<anonymous> (tsserver.js:147342:27)
+    at Interface.emit (events.js:203:13)
+    at Interface._onLine (readline.js:316:10)
+    at Interface._normalWrite (readline.js:461:12)
+    at Socket.ondata (readline.js:172:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:49958)
+	at h.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:216914)
+	at h.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215832)
+	at /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215308
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:845)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223870)
+	at Socket.<anonymous> (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223518)
+	at Socket.emit (events.js:203:13)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:276:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-04-13 15:11:01.150] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-13 15:11:01.150] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-13 15:15:42.070] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-13 15:15:42.071] [exthost] [error] Error: <syntax> TypeScript Server Error (3.8.3)
+Debug Failure. False expression: Expected line to be non-zero
+Error: Debug Failure. False expression: Expected line to be non-zero
+    at failIfInvalidLocation (tsserver.js:138899:22)
+    at ScriptInfo.positionToLineOffset (tsserver.js:138872:17)
+    at toProtocolTextSpan (tsserver.js:146077:35)
+    at tsserver.js:145608:68
+    at Array.map (<anonymous>)
+    at IOSession.Session.toLocationNavigationTree (tsserver.js:145608:39)
+    at IOSession.Session.getNavigationTree (tsserver.js:145619:32)
+    at Session.handlers.ts.createMapFromTemplate._a.<computed> (tsserver.js:144481:61)
+    at tsserver.js:146003:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:145994:28)
+    at IOSession.Session.executeCommand (tsserver.js:146003:33)
+    at IOSession.Session.onMessage (tsserver.js:146027:35)
+    at Interface.<anonymous> (tsserver.js:147342:27)
+    at Interface.emit (events.js:203:13)
+    at Interface._onLine (readline.js:316:10)
+    at Interface._normalWrite (readline.js:461:12)
+    at Socket.ondata (readline.js:172:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:49958)
+	at h.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:216914)
+	at h.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215832)
+	at /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215308
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:845)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223870)
+	at Socket.<anonymous> (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223518)
+	at Socket.emit (events.js:203:13)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:276:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-04-13 15:17:14.922] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-13 15:17:14.926] [exthost] [error] Error: <syntax> TypeScript Server Error (3.8.3)
+Debug Failure. False expression: Expected line to be non-zero
+Error: Debug Failure. False expression: Expected line to be non-zero
+    at failIfInvalidLocation (tsserver.js:138899:22)
+    at ScriptInfo.positionToLineOffset (tsserver.js:138872:17)
+    at toProtocolTextSpan (tsserver.js:146077:35)
+    at tsserver.js:145608:68
+    at Array.map (<anonymous>)
+    at IOSession.Session.toLocationNavigationTree (tsserver.js:145608:39)
+    at IOSession.Session.getNavigationTree (tsserver.js:145619:32)
+    at Session.handlers.ts.createMapFromTemplate._a.<computed> (tsserver.js:144481:61)
+    at tsserver.js:146003:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:145994:28)
+    at IOSession.Session.executeCommand (tsserver.js:146003:33)
+    at IOSession.Session.onMessage (tsserver.js:146027:35)
+    at Interface.<anonymous> (tsserver.js:147342:27)
+    at Interface.emit (events.js:203:13)
+    at Interface._onLine (readline.js:316:10)
+    at Interface._normalWrite (readline.js:461:12)
+    at Socket.ondata (readline.js:172:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:49958)
+	at h.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:216914)
+	at h.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215832)
+	at /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215308
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:845)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223870)
+	at Socket.<anonymous> (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223518)
+	at Socket.emit (events.js:203:13)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:276:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-04-13 15:17:37.916] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-13 15:17:37.917] [exthost] [error] Error: <syntax> TypeScript Server Error (3.8.3)
+Debug Failure. False expression: Expected line to be non-zero
+Error: Debug Failure. False expression: Expected line to be non-zero
+    at failIfInvalidLocation (tsserver.js:138899:22)
+    at ScriptInfo.positionToLineOffset (tsserver.js:138872:17)
+    at toProtocolTextSpan (tsserver.js:146077:35)
+    at tsserver.js:145608:68
+    at Array.map (<anonymous>)
+    at IOSession.Session.toLocationNavigationTree (tsserver.js:145608:39)
+    at IOSession.Session.getNavigationTree (tsserver.js:145619:32)
+    at Session.handlers.ts.createMapFromTemplate._a.<computed> (tsserver.js:144481:61)
+    at tsserver.js:146003:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:145994:28)
+    at IOSession.Session.executeCommand (tsserver.js:146003:33)
+    at IOSession.Session.onMessage (tsserver.js:146027:35)
+    at Interface.<anonymous> (tsserver.js:147342:27)
+    at Interface.emit (events.js:203:13)
+    at Interface._onLine (readline.js:316:10)
+    at Interface._normalWrite (readline.js:461:12)
+    at Socket.ondata (readline.js:172:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:49958)
+	at h.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:216914)
+	at h.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215832)
+	at /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215308
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:845)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223870)
+	at Socket.<anonymous> (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223518)
+	at Socket.emit (events.js:203:13)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:276:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-04-13 15:18:29.292] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-13 15:18:29.292] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-13 15:19:15.744] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-13 15:19:15.745] [exthost] [error] Error: <syntax> TypeScript Server Error (3.8.3)
+Debug Failure. False expression: Expected line to be non-zero
+Error: Debug Failure. False expression: Expected line to be non-zero
+    at failIfInvalidLocation (tsserver.js:138899:22)
+    at ScriptInfo.positionToLineOffset (tsserver.js:138872:17)
+    at toProtocolTextSpan (tsserver.js:146077:35)
+    at tsserver.js:145608:68
+    at Array.map (<anonymous>)
+    at IOSession.Session.toLocationNavigationTree (tsserver.js:145608:39)
+    at IOSession.Session.getNavigationTree (tsserver.js:145619:32)
+    at Session.handlers.ts.createMapFromTemplate._a.<computed> (tsserver.js:144481:61)
+    at tsserver.js:146003:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:145994:28)
+    at IOSession.Session.executeCommand (tsserver.js:146003:33)
+    at IOSession.Session.onMessage (tsserver.js:146027:35)
+    at Interface.<anonymous> (tsserver.js:147342:27)
+    at Interface.emit (events.js:203:13)
+    at Interface._onLine (readline.js:316:10)
+    at Interface._normalWrite (readline.js:461:12)
+    at Socket.ondata (readline.js:172:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:49958)
+	at h.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:216914)
+	at h.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215832)
+	at /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215308
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:845)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223870)
+	at Socket.<anonymous> (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223518)
+	at Socket.emit (events.js:203:13)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:276:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-04-13 15:21:39.904] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-13 15:21:39.905] [exthost] [error] Error: <syntax> TypeScript Server Error (3.8.3)
+Debug Failure. False expression: Expected line to be non-zero
+Error: Debug Failure. False expression: Expected line to be non-zero
+    at failIfInvalidLocation (tsserver.js:138899:22)
+    at ScriptInfo.positionToLineOffset (tsserver.js:138872:17)
+    at toProtocolTextSpan (tsserver.js:146077:35)
+    at tsserver.js:145608:68
+    at Array.map (<anonymous>)
+    at IOSession.Session.toLocationNavigationTree (tsserver.js:145608:39)
+    at IOSession.Session.getNavigationTree (tsserver.js:145619:32)
+    at Session.handlers.ts.createMapFromTemplate._a.<computed> (tsserver.js:144481:61)
+    at tsserver.js:146003:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:145994:28)
+    at IOSession.Session.executeCommand (tsserver.js:146003:33)
+    at IOSession.Session.onMessage (tsserver.js:146027:35)
+    at Interface.<anonymous> (tsserver.js:147342:27)
+    at Interface.emit (events.js:203:13)
+    at Interface._onLine (readline.js:316:10)
+    at Interface._normalWrite (readline.js:461:12)
+    at Socket.ondata (readline.js:172:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:49958)
+	at h.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:216914)
+	at h.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215832)
+	at /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:215308
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:845)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223870)
+	at Socket.<anonymous> (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:223518)
+	at Socket.emit (events.js:203:13)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:276:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-04-13 15:26:54.157] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-13 15:26:54.157] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-13 15:26:59.577] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-13 15:26:59.577] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-13 15:27:07.291] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-13 15:27:07.291] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)
+[2020-04-13 15:43:56.237] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-13 15:43:56.238] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)

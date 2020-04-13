@@ -5,6 +5,6 @@ module.exports = {
   product: "product",
   team: "team",
   position: "position",
-  order: "order",
+  order: "orders",
   productReview: "product_review",
 };

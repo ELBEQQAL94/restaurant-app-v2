@@ -1,12 +1,22 @@
 ### TODO:
 
-- [x] Complete migrations:
-  - [x] users
-  - [x] product
-  - [x] order
-  - [x] team
-  - [x] position
-  - [x] product_review
-- [ ] run migrations
-- [ ] Create seed
-- [ ] run seeds
+- [ ] deploy database on server
+- [ ] Create an admin for the app
+- [ ] Create an admin can
+  - [ ] add category
+  - [ ] remove category
+  - [ ] update category
+  - [ ] get category
+  - [ ] add product
+  - [ ] update product
+  - [ ] get product
+  - [ ] remove product
+  - [ ] add person to team
+  - [ ] update person
+  - [ ] remove person
+  - [ ] get team
+  - [ ] remove user
+  - [ ] update user
+  - [ ] get users
+  - [ ] make user an admin
+  - [ ] banned bad review

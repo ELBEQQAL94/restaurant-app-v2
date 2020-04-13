@@ -1,14 +1,14 @@
 const { reference } = require("../helpers");
-const { position } = require("../src/db/tableNames");
+const { team } = require("../src/db/tableNames");
 
 exports.up = async (knex) => {
-  await knex.schema.table(position, (table) => {
-    reference(table, "team");
+  await knex.schema.table(team, (table) => {
+    reference(table, "position");
   });
 };
 
 exports.down = async (knex) => {
-  await knex.schema.table(position, (table) => {
-    table.dropColumn("team_id");
+  await knex.schema.table(team, (table) => {
+    table.dropColumn("position_id");
   });
 };

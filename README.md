@@ -75,8 +75,8 @@ npm run dev
 - [x] Serialize and Deserialize the user
 - [x] Login with google
 - [ ] Login with facebook
-- [ ] Create an admin
-- [ ] Create an admin route can:
+- [ ] Create an admin for the app
+- [ ] Create an admin can
   - [ ] add category
   - [ ] remove category
   - [ ] update category
@@ -108,14 +108,22 @@ npm run dev
 - [x] Create migrations
   - [x] users
   - [x] role
-  - [ ] product
-  - [ ] order
-  - [ ] team
+  - [x] product
+  - [x] order
+  - [x] team
   - [x] product_category
-  - [ ] product_review
-  - [ ] position
-- [x] run migrations
+  - [x] product_review
+  - [x] position
 - [x] Create seeds
+  - [x] users
+  - [x] role
+  - [x] product
+  - [x] order
+  - [x] team
+  - [x] product_category
+  - [x] product_review
+  - [x] position
+- [x] run migrations
 - [x] run seeds
 
 ### Documentation
@@ -172,62 +180,4 @@ npm run dev
 
 * knex.js
 * postgresql
-
-CREATE TABLE `Order` (
-`id` serial,
-`product_id` unsigned_int,
-`created_at` date,
-`updated_at` date,
-`user_id` unsigned_int,
-PRIMARY KEY (`id`),
-KEY `FK` (`product_id`, `user_id`)
-);
-
-CREATE TABLE `Product` (
-`id` serial,
-`name` texy,
-`price` decimal,
-`product_category_id` unsigned_int,
-`origine` text,
-`open` date,
-`closed` date,
-`image_url` text,
-`team_id` unsigned_int,
-`created_at` date,
-`updated_at` date,
-`description` text,
-`recipe` text,
-PRIMARY KEY (`id`),
-KEY `FK` (`product_category_id`, `team_id`)
-);
-
-CREATE TABLE `Position` (
-`id` serial,
-`name` text,
-PRIMARY KEY (`id`)
-);
-
-CREATE TABLE `Team` (
-`id` serial,
-`firstname` text,
-`lastname` text,
-`email` text,
-`phone` number,
-`image_url` text,
-`position_id` unsigned_int,
-`created_at` date,
-`updated_at` date,
-PRIMARY KEY (`id`),
-KEY `FK` (`position_id`)
-);
-
-CREATE TABLE `product_review` (
-`id` serial,
-`product_id` unsigned_int,
-`user_id` unsigned_int,
-`description` text,
-`created_at` date,
-`updated_at` date,
-PRIMARY KEY (`id`),
-KEY `FK` (`product_id`, `user_id`)
-);
+* pg
