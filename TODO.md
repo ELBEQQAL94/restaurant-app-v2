@@ -1,6 +1,19 @@
 ### TODO:
 
-- [ ] deploy database on server
+- [x] deploy database
+- [ ] create login route
+  - [ ] create POST request to /auth/login
+  - [ ] validate data
+  - [ ] insert data into database
+  - [ ] redirect to /home
+  - [ ] else display errors
+- [ ] create signup route
+  - [ ] create POST request to /auth/signup
+  - [ ] validate data
+  - [ ] insert data into database
+  - [ ] redirect to /home
+  - [ ] else display errors
+- [ ] create logout
 - [ ] Create an admin for the app
 - [ ] Create an admin can
   - [ ] add category

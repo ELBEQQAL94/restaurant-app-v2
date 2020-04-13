@@ -3,7 +3,7 @@ function reference(table, name) {
     .integer(`${name}_id`)
     .unsigned()
     .references("id")
-    .inTable("role")
+    .inTable(name)
     .onDelete("cascade");
 }
 

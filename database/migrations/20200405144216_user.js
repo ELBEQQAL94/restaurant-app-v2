@@ -1,12 +1,6 @@
 const { users } = require("../src/db/tableNames");
 
-const {
-  image_url,
-  createId,
-  addDefaultColumns,
-  email,
-  phone,
-} = require("../helpers");
+const { image_url, createId, addDefaultColumns, email } = require("../helpers");
 
 exports.up = async (knex) => {
   await knex.schema.createTable(users, (table) => {
@@ -15,7 +9,6 @@ exports.up = async (knex) => {
     email(table);
     table.string("password");
     table.string("google_id");
-    phone(table);
     image_url(table);
     table.boolean("active").notNullable().default(true);
     table.datetime("last_login", { precision: 6 }).defaultTo(knex.fn.now(6));

@@ -3,7 +3,14 @@ const { users } = require("../src/db/tableNames");
 
 exports.up = async (knex) => {
   await knex.schema.table(users, (table) => {
-    reference(table, "role");
+    //reference(table, "role");
+    table
+      .integer("role_id")
+      .unsigned()
+      .references("id")
+      .inTable("role")
+      .default(1)
+      .onDelete("cascade");
   });
 };
 
