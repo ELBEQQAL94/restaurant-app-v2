@@ -1,5 +1,5 @@
-const Joi = require('joi');
-const schema = require('./notes.schema');
+const Joi = require("@hapi/joi");
+const schema = require("./notes.schema");
 
 const validateNote = (req, res, next) => {
   const result = Joi.validate(req.body, schema);
@@ -11,6 +11,5 @@ const validateNote = (req, res, next) => {
     next(error);
   }
 };
-
 
 module.exports = validateNote;

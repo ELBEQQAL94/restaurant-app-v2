@@ -1,18 +1,6 @@
-const Joi = require("@hapi/joi");
 const db = require("../db");
 const { users } = require("../db/tableNames");
-const { insertIntoTableAndValidate } = require("./index");
-
-const schema = Joi.object({
-  username: Joi.string().min(3).max(30).required(),
-  password: Joi.string().pattern(new RegExp("^[a-zA-Z0-9]{3,30}$")),
-  email: Joi.string().email(),
-  google_id: Joi.string().required(),
-  image_url: Joi.string(),
-  phone: Joi.string(),
-  active: Joi.boolean(),
-  role_id: Joi.number().integer(),
-});
+const { insertIntoTable } = require("./index");
 
 module.exports = {
   findUserByEmail(email) {
@@ -23,7 +11,7 @@ module.exports = {
     return rows[0];
   },
   insert(user) {
-    return insertIntoTableAndValidate(user, users, schema);
+    return insertIntoTable(user, users);
   },
   findAdmins() {
     return db(users).where("role_id", 2);

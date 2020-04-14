@@ -2235,3 +2235,464 @@ Open repository: /home/youssef/Downloads/opt/restaurant-app-v2
 > git show :server/src/controller/auth/helpers/index.js
 > git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/controller/auth/helpers/index.js
 > git cat-file -s 0712e2a3eaaeb696d48f17d3a06a46b70579a1bd
+> git status -z -u
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/controller/auth/helpers/index.js
+> git cat-file -s 0712e2a3eaaeb696d48f17d3a06a46b70579a1bd
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git show :server/src/controller/auth/helpers/index.js
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :README.md
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/README.md
+> git cat-file -s 0612af5328b011eb564e22d7dd324759ff0a6ee0
+> git show :database/seeds/02-users.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/database/seeds/02-users.js
+> git cat-file -s fbe380c5c821fd38ec5bf644cf5441a67441033f
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :database/seeds/05-teams.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/database/seeds/05-teams.js
+> git cat-file -s 243183cfb853bcf824c6a859abefa728b5a68533
+> git show :database/seeds/02-users.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/database/seeds/02-users.js
+> git cat-file -s fbe380c5c821fd38ec5bf644cf5441a67441033f
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :database/seeds/08-teams.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/database/seeds/08-teams.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :server/.env
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/.env
+> git show :README.md
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/README.md
+> git cat-file -s 0612af5328b011eb564e22d7dd324759ff0a6ee0
+> git show :database/seeds/08-teams.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/database/seeds/08-teams.js
+> git show :README.md
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/README.md
+> git cat-file -s 0612af5328b011eb564e22d7dd324759ff0a6ee0
+> git show :server/src/controller/auth/helpers/index.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/controller/auth/helpers/index.js
+> git cat-file -s 0712e2a3eaaeb696d48f17d3a06a46b70579a1bd
+> git show :server/src/passport/google.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/passport/google.js
+> git cat-file -s 40bf0b5e88a9a1145adda376edae4758ef9b5222
+> git show :server/src/controller/auth/helpers/index.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/controller/auth/helpers/index.js
+> git cat-file -s 0712e2a3eaaeb696d48f17d3a06a46b70579a1bd
+> git show :server/src/passport/google.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/passport/google.js
+> git cat-file -s 40bf0b5e88a9a1145adda376edae4758ef9b5222
+> git show :server/src/controller/auth/helpers/index.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/controller/auth/helpers/index.js
+> git cat-file -s 0712e2a3eaaeb696d48f17d3a06a46b70579a1bd
+> git show :server/src/passport/google.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/passport/google.js
+> git cat-file -s 40bf0b5e88a9a1145adda376edae4758ef9b5222
+> git show :server/src/controller/auth/helpers/index.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/controller/auth/helpers/index.js
+> git cat-file -s 0712e2a3eaaeb696d48f17d3a06a46b70579a1bd
+> git show :server/src/passport/google.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/passport/google.js
+> git cat-file -s 40bf0b5e88a9a1145adda376edae4758ef9b5222
+> git show :server/src/controller/auth/helpers/index.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/controller/auth/helpers/index.js
+> git cat-file -s 0712e2a3eaaeb696d48f17d3a06a46b70579a1bd
+> git show :server/src/routes/auth/index.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/routes/auth/index.js
+> git cat-file -s 1012843ddf082bd13e93eb59c07bed978acd53da
+> git show :server/src/routes/auth/auth.middlewares.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/routes/auth/auth.middlewares.js
+> git cat-file -s bf7093d40c1a2a391e39dd6ecde98d3a5113bd95
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :server/src/routes/api/users/index.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/routes/api/users/index.js
+> git cat-file -s 52964e369a972c7227317b4003cb140a0975ee6a
+> git show :server/src/routes/api/users/users.middlewares.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/routes/api/users/users.middlewares.js
+> git cat-file -s e17b3fe86e2ba465d035561a232a9ac51ef42b8a
+> git show :server/src/controller/auth/helpers/index.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/controller/auth/helpers/index.js
+> git cat-file -s 0712e2a3eaaeb696d48f17d3a06a46b70579a1bd
+> git show :server/src/controller/auth/index.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/controller/auth/index.js
+> git cat-file -s afa654038f2a09062952f3d66fd9eb1ae91e16a8
+> git show :server/src/controller/auth/helpers/index.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/controller/auth/helpers/index.js
+> git cat-file -s 0712e2a3eaaeb696d48f17d3a06a46b70579a1bd
+> git show :server/.env
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/.env
+> git show :server/src/controller/auth/helpers/index.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/controller/auth/helpers/index.js
+> git cat-file -s 0712e2a3eaaeb696d48f17d3a06a46b70579a1bd
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :server/src/app.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/app.js
+> git cat-file -s f142399e4682acfb97e83f6918c1d4a93524b81f
+> git show :server/src/routes/auth/index.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/routes/auth/index.js
+> git cat-file -s 1012843ddf082bd13e93eb59c07bed978acd53da
+> git show :server/src/controller/auth/index.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/controller/auth/index.js
+> git cat-file -s afa654038f2a09062952f3d66fd9eb1ae91e16a8
+> git show :server/src/controller/auth/helpers/index.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/controller/auth/helpers/index.js
+> git cat-file -s 0712e2a3eaaeb696d48f17d3a06a46b70579a1bd
+> git show :server/src/passport/google.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/passport/google.js
+> git cat-file -s 40bf0b5e88a9a1145adda376edae4758ef9b5222
+> git show :server/src/controller/auth/helpers/index.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/controller/auth/helpers/index.js
+> git cat-file -s 0712e2a3eaaeb696d48f17d3a06a46b70579a1bd
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :server/.env
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/.env
+> git show :server/src/controller/auth/helpers/index.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/controller/auth/helpers/index.js
+> git cat-file -s 0712e2a3eaaeb696d48f17d3a06a46b70579a1bd
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :server/queries/users.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/queries/users.js
+> git cat-file -s 226c4bc77bfa0326f5a1102babd04603a9575060
+> git show :server/src/routes/auth/index.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/routes/auth/index.js
+> git cat-file -s 1012843ddf082bd13e93eb59c07bed978acd53da
+> git show :server/src/routes/auth/auth.schema.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/routes/auth/auth.schema.js
+> git cat-file -s 0b16c0247a10f8f4c07ea115ecc0c65e94512772
+> git show :server/queries/users.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/queries/users.js
+> git cat-file -s 226c4bc77bfa0326f5a1102babd04603a9575060
+> git show :server/src/controller/auth/helpers/index.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/controller/auth/helpers/index.js
+> git cat-file -s 0712e2a3eaaeb696d48f17d3a06a46b70579a1bd
+> git show :server/src/routes/auth/auth.schema.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/routes/auth/auth.schema.js
+> git cat-file -s 0b16c0247a10f8f4c07ea115ecc0c65e94512772
+> git show :server/src/controller/auth/helpers/index.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/controller/auth/helpers/index.js
+> git cat-file -s 0712e2a3eaaeb696d48f17d3a06a46b70579a1bd
+> git show :server/queries/users.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/queries/users.js
+> git cat-file -s 226c4bc77bfa0326f5a1102babd04603a9575060
+> git show :server/src/controller/auth/helpers/index.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/controller/auth/helpers/index.js
+> git cat-file -s 0712e2a3eaaeb696d48f17d3a06a46b70579a1bd
+> git show :server/src/routes/auth/auth.schema.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/routes/auth/auth.schema.js
+> git cat-file -s 0b16c0247a10f8f4c07ea115ecc0c65e94512772
+> git show :server/queries/users.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/queries/users.js
+> git cat-file -s 226c4bc77bfa0326f5a1102babd04603a9575060
+> git show :server/src/controller/auth/helpers/index.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/controller/auth/helpers/index.js
+> git cat-file -s 0712e2a3eaaeb696d48f17d3a06a46b70579a1bd
+> git show :server/src/routes/auth/auth.schema.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/routes/auth/auth.schema.js
+> git cat-file -s 0b16c0247a10f8f4c07ea115ecc0c65e94512772
+> git show :server/queries/users.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/queries/users.js
+> git cat-file -s 226c4bc77bfa0326f5a1102babd04603a9575060
+> git show :server/queries/index.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/queries/index.js
+> git cat-file -s 04889bd78a5658d4ad0c6faaebb0535bb8334a2f
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :server/queries/users.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/queries/users.js
+> git cat-file -s 226c4bc77bfa0326f5a1102babd04603a9575060
+> git show :server/src/routes/auth/auth.schema.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/routes/auth/auth.schema.js
+> git cat-file -s 0b16c0247a10f8f4c07ea115ecc0c65e94512772
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :server/queries/users.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/queries/users.js
+> git cat-file -s 226c4bc77bfa0326f5a1102babd04603a9575060
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :server/src/routes/auth/auth.schema.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/routes/auth/auth.schema.js
+> git cat-file -s 0b16c0247a10f8f4c07ea115ecc0c65e94512772
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :server/package.json
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/package.json
+> git cat-file -s 54775bdbf9f8a2f152d76dee54af3369d4096e03
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :server/src/routes/auth/auth.schema.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/routes/auth/auth.schema.js
+> git cat-file -s 0b16c0247a10f8f4c07ea115ecc0c65e94512772
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :server/package.json
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/package.json
+> git cat-file -s 54775bdbf9f8a2f152d76dee54af3369d4096e03
+> git show :server/src/routes/auth/auth.middlewares.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/routes/auth/auth.middlewares.js
+> git cat-file -s bf7093d40c1a2a391e39dd6ecde98d3a5113bd95
+> git show :server/src/routes/auth/auth.schema.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/routes/auth/auth.schema.js
+> git cat-file -s 0b16c0247a10f8f4c07ea115ecc0c65e94512772
+> git show :server/src/routes/auth/auth.middlewares.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/routes/auth/auth.middlewares.js
+> git cat-file -s bf7093d40c1a2a391e39dd6ecde98d3a5113bd95
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show :server/src/routes/api/notes/notes.middlewares.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/routes/api/notes/notes.middlewares.js
+> git cat-file -s 8b2ab413fa0801b5419c4b347c4357b96d92692a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :server/src/routes/auth/auth.middlewares.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/routes/auth/auth.middlewares.js
+> git cat-file -s bf7093d40c1a2a391e39dd6ecde98d3a5113bd95
+> git show :server/src/routes/auth/auth.schema.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/routes/auth/auth.schema.js
+> git cat-file -s 0b16c0247a10f8f4c07ea115ecc0c65e94512772
+> git show :server/src/routes/api/notes/notes.middlewares.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/routes/api/notes/notes.middlewares.js
+> git cat-file -s 8b2ab413fa0801b5419c4b347c4357b96d92692a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :server/src/routes/api/notes/notes.schema.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/routes/api/notes/notes.schema.js
+> git cat-file -s 9debca8f4032bf17533e34de7e953cc51e99033c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :server/src/routes/api/users/users.middlewares.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/routes/api/users/users.middlewares.js
+> git cat-file -s e17b3fe86e2ba465d035561a232a9ac51ef42b8a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :server/src/routes/api/users/users.schema.js
+> git ls-files --stage -- /home/youssef/Downloads/opt/restaurant-app-v2/server/src/routes/api/users/users.schema.js
+> git cat-file -s c14c51d5be0d83fdaf3fb2c7eead52741f04f78d
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template

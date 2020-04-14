@@ -1,5 +1,4 @@
 const jwt = require("jsonwebtoken");
-const Joi = require("joi");
 const { verifyToken } = require("../../helpers");
 const { signUpSchema, loginSchema } = require("./auth.schema");
 
@@ -40,24 +39,24 @@ function isAdmin(req, res, next) {
 }
 
 const validateSignUpUser = (req, res, next) => {
-  const result = Joi.validate(req.body, signUpSchema);
-  if (result.error === null) {
-    next();
-  } else {
-    const error = new Error(result.error.details[0].message);
+  const result = signUpSchema.validate(req.body);
+  if (result.error) {
+    const error = new Error(result.error);
     res.status(422);
     next(error);
+  } else {
+    next();
   }
 };
 
 const validateLoginUser = (req, res, next) => {
-  const result = Joi.validate(req.body, loginSchema);
-  if (result.error === null) {
-    next();
-  } else {
+  const result = loginSchema.validate(req.body);
+  if (result.error) {
     const error = new Error(result.error.details[0].message);
     res.status(422);
     next(error);
+  } else {
+    next();
   }
 };
 

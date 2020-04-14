@@ -25,10 +25,6 @@ passport.use(
         email,
         google_id: profile.id,
         image_url: profile.photos[0].value,
-        phone: "+212675058801",
-        role_id: 1,
-        // updated_at: Date.now(),
-        // created_at: Date.now(),
       };
       try {
         let user = await users.findUserByEmail(email);

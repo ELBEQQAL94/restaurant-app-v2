@@ -8,10 +8,7 @@ exports.seed = async (knex) => {
       id: 1,
       username: "john doea",
       email: "email@email.com",
-      password: "",
-      google_id: "",
-      phone: "06750588801",
-      role_id: 1,
+      password: "password",
     },
   ]);
 };

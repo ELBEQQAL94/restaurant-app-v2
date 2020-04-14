@@ -27,23 +27,14 @@ function showError(res, next, message) {
 
 // create token send response
 // sign Token
-function createTokenSendResponse(user) {
-  return new Promise((resolve, reject) => {
-    jwt.sign(
-      user,
-      process.env.TOKEN_SECRET,
-      { expiresIn: "1d" },
-      (err, token) => {
-        if (err) {
-          //showError(res, next, message);
-          return reject(err);
-        }
-
-        //res.json({ token });
-        resolve(token);
+function createTokenSendResponse(user, secret, res, next, message) {
+    jwt.sign(user, secret, { expiresIn: "1d" }, (err, token) => {
+      if (err) {
+        showError(res, next, message);
       }
-    );
-  });
+
+      res.json({ token });
+    });
 }
 
 function verifyToken(token, req, next) {
