@@ -17,14 +17,13 @@ async function findUserIfExists(req, res, next) {
       bcrypt.compare(password, user.password).then((data) => {
         // if result is true, the password is correct
         if (data) {
-          const resulta = createTokenSendResponse(
+          createTokenSendResponse(
             user,
             process.env.TOKEN_SECRET,
             res,
             next,
             tokenError
           );
-          console.log(resulta);
         } else {
           // else return error
           showError(res, next, "Password is incorrect.");

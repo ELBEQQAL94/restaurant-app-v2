@@ -1,20 +1,18 @@
 ### TODO:
 
 - [x] deploy database
-- [ ] create login route
-  - [ ] create POST request to /auth/login
-  - [ ] validate data
-  - [ ] insert data into database
-  - [ ] redirect to /home
-  - [ ] else display errors
-- [ ] create signup route
-  - [ ] create POST request to /auth/signup
-  - [ ] validate data
-  - [ ] insert data into database
-  - [ ] redirect to /home
-  - [ ] else display errors
-- [ ] create logout
-- [ ] Create an admin for the app
+- [x] create login route
+  - [x] create POST request to /auth/login
+  - [x] validate data
+  - [x] insert data into database
+  - [x] else display errors
+- [x] create signup route
+  - [x] create POST request to /auth/signup
+  - [x] validate data
+  - [x] insert data into database
+  - [x] else display errors
+- [x] fix duplicate data in db
+- [x] Create an admin for the app
 - [ ] Create an admin can
   - [ ] add category
   - [ ] remove category
