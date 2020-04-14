@@ -3,8 +3,8 @@ import Router from "vue-router";
 import Home from "./views/Home.vue";
 import About from "./views/About.vue";
 import Login from "./views/Login.vue";
-import Error from "./views/Error.vue";
-import Admin from "./views/Admin.vue";
+import Signup from "./views/Signup.vue";
+import Profile from "./views/Profile.vue";
 import store from "./store";
 
 Vue.use(Router);
@@ -14,34 +14,34 @@ export default new Router({
     {
       path: "/",
       name: "home",
-      component: Home,
+      component: Home
     },
     {
       path: "/about",
       name: "about",
-      component: About,
+      component: About
     },
     {
-      path: "/login/:token",
+      path: "/login",
       name: "login",
-      component: Login,
+      component: Login
     },
     {
-      path: "/error/:error",
-      name: "error",
-      component: Error,
+      path: "/signup",
+      name: "signup",
+      component: Signup
     },
     {
-      path: "/admin",
-      name: "admin",
-      component: Admin,
+      path: "/profile",
+      name: "profile",
+      component: Profile,
       beforeEnter(to, from, next) {
         if (store.getters.isLoggedIn) {
           next();
         } else {
           next("/");
         }
-      },
-    },
-  ],
+      }
+    }
+  ]
 });

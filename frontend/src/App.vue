@@ -1,6 +1,6 @@
 <template>
   <div id="#app">
-    <Header />
+    <app-nav />
     <v-container>
       <router-view />
     </v-container>
@@ -8,14 +8,14 @@
 </template>
 
 <script>
-import Header from "@/components/Header";
+import AppNav from "@/components/AppNav";
 import { mapActions } from "vuex";
 
 export default {
   name: "App",
 
   components: {
-    Header
+    AppNav
   },
   data() {
     return {
@@ -43,5 +43,10 @@ body {
 
 a {
   text-decoration: none;
+  color: white;
+}
+/* error color for login and signup form */
+.theme--light .v-messages {
+  color: red !important;
 }
 </style>

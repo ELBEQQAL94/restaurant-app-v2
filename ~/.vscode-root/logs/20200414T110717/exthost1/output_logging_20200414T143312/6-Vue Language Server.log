@@ -1,0 +1,114 @@
+Loaded bundled typescript@3.7.5.
+Vetur initialized
+[Error - 2:33:19 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 2:33:20 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 2:33:20 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+{ parser: "babylon" } is deprecated; we now treat it as { parser: "babel" }.
+[Error - 2:36:16 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 2:36:16 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 2:36:20 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 2:36:21 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 2:36:21 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 2:36:21 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 2:52:12 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 2:52:25 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 2:52:25 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 2:52:26 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 2:52:26 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 2:53:02 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 2:57:48 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 2:57:49 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 2:57:49 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 2:57:50 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 3:01:28 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 3:01:28 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 3:01:56 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 3:25:19 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 3:25:23 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 3:25:24 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 3:25:25 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 4:31:07 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 4:31:08 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+Prettier format failed
+[Error - 5:46:03 PM] Unexpected token (22:5)
+  20 |   mounted() {
+  21 |     const { token } = // make token;
+> 22 |     if (token) {
+     |     ^
+  23 |       this.login(token);
+  24 |       this.$router.push("/profile");
+  25 |     } else {
+[Error - 6:39:30 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 6:39:30 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 6:39:31 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 7:01:36 PM] Request textDocument/documentHighlight failed.
+  Message: Request textDocument/documentHighlight failed with message: Cannot read property 'length' of undefined
+  Code: -32603 
+[Error - 7:03:54 PM] Request textDocument/documentHighlight failed.
+  Message: Request textDocument/documentHighlight failed with message: Cannot read property 'length' of undefined
+  Code: -32603 
+[Error - 7:23:39 PM] Request textDocument/documentHighlight failed.
+  Message: Request textDocument/documentHighlight failed with message: Cannot read property 'length' of undefined
+  Code: -32603 

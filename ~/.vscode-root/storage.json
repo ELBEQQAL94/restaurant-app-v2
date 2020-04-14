@@ -21,7 +21,7 @@
         "openedWindows": []
     },
     "theme": "vs-dark",
-    "themeBackground": "#1e1e1e",
+    "themeBackground": "#000c18",
     "lastKnownMenubarData": {
         "menus": {
             "File": {
@@ -386,8 +386,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Show &&Side Bar",
-                                    "checked": true
+                                    "label": "Show &&Side Bar"
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",

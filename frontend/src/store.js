@@ -1,7 +1,7 @@
 import Vue from "vue";
 import Vuex from "vuex";
 import { parseJwt } from "./helpers";
-import { getAllCategories } from "./API";
+import { getAllCategories } from "@/api/API";
 
 Vue.use(Vuex);
 
@@ -9,7 +9,7 @@ export default new Vuex.Store({
   state: {
     token: "",
     user: null,
-    categories: [],
+    categories: []
   },
   mutations: {
     setToken(state, token) {
@@ -20,12 +20,12 @@ export default new Vuex.Store({
     },
     setCategories(state, categories) {
       state.categories = categories;
-    },
+    }
   },
   getters: {
     isLoggedIn(state) {
       return !!state.user;
-    },
+    }
   },
   actions: {
     login({ commit }, token) {
@@ -45,6 +45,6 @@ export default new Vuex.Store({
       const categories = await getAllCategories();
       console.log(categories);
       commit("setCategories", categories);
-    },
-  },
+    }
+  }
 });

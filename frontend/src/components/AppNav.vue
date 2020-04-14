@@ -10,23 +10,14 @@
             </span>
           </v-flex>
           <v-flex md3>
-            <v-layout row>
-              <v-flex md6 v-if="!user">
-                <a :href="getLoginURL">
-                  <v-btn block small color="#00B0FF" dark>login with google</v-btn>
-                </a>
-              </v-flex>
-              <!-- <v-flex md4>
-                <v-btn
-                  @click="overlay = !overlay"
-                  block
-                  small
-                  color="primary"
-                  dark
-                  >signup</v-btn
-                >
-              </v-flex>-->
-            </v-layout>
+            <v-tabs backgroundColor="#4CAF50" color="#FFFDE7">
+              <v-tab>
+                <router-link to="/login">login</router-link>
+              </v-tab>
+              <v-tab>
+                <router-link to="/signup">signup</router-link>
+              </v-tab>
+            </v-tabs>
           </v-flex>
         </v-layout>
       </v-container>
@@ -66,6 +57,10 @@
   color: rgb(80, 32, 24) !important;
   margin-left: 5px;
   white-space: nowrap;
+}
+
+.router-link-exact-active {
+  color: red !important;
 }
 </style>
 

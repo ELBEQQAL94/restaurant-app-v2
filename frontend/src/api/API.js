@@ -26,10 +26,21 @@ export async function getAllCategories() {
 
   return axios
     .get(`${API_URL}/api/v1/categories`)
-    .then((response) => {
+    .then(response => {
       return response.data.categories;
     })
-    .catch((error) => {
+    .catch(error => {
       console.log("Error: ", error);
+    });
+}
+
+export function loginReq(user) {
+  return axios
+    .post(`${API_URL}/auth/login`, user)
+    .then(res => {
+      localStorage.token = res.data.token;
+    })
+    .catch(err => {
+      console.log(JSON.parse(JSON.stringify(err.response.data.message)));
     });
 }

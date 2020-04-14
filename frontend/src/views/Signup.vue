@@ -1,7 +1,14 @@
 <template>
   <section class="form-section">
-    <h1>Login</h1>
-    <v-form ref="form" v-model="valid" :lazy-validation="lazy" class="login-form">
+    <h1>Signup</h1>
+    <v-form ref="form" v-model="valid" :lazy-validation="lazy" class="signup-form">
+      <v-text-field
+        background-color="#FFD54F"
+        v-model="username"
+        :rules="usernameRules"
+        label="Username"
+        required
+      ></v-text-field>
       <v-text-field
         background-color="#FFD54F"
         v-model="email"
@@ -16,7 +23,13 @@
         label="Password"
         required
       ></v-text-field>
-
+      <v-text-field
+        background-color="#FFD54F"
+        v-model="ConfirmPassword"
+        :rules="confirmPasswordRules"
+        label="Re-Password"
+        required
+      ></v-text-field>
       <v-btn
         color="#FFD54F"
         :disabled="!valid"
@@ -44,7 +57,7 @@
   margin: 1em 0;
 }
 
-.login-form {
+.signup-form {
   background: #ffffff;
   width: 70%;
   padding: 7vmin;
@@ -52,14 +65,15 @@
 </style>
 
 <script>
-import { mapActions } from "vuex";
 import { loginReq } from "@/api/API";
 
 export default {
-  name: "Login",
+  name: "Signup",
 
-  data: () => ({
+  data: vm => ({
     valid: true,
+    username: "",
+    usernameRules: [v => !!v || "Username is required"],
     email: "",
     emailRules: [
       v => !!v || "E-mail is required",
@@ -70,24 +84,20 @@ export default {
       v => !!v || "Password is required",
       v => /^[a-zA-Z0-9]{3,30}$/.test(v) || "Password must be valid"
     ],
+    ConfirmPassword: "",
+    confirmPasswordRules: [
+      ConfirmPassword =>
+        ConfirmPassword === vm.password || "Password must match."
+    ],
     lazy: false
   }),
-  mounted() {
-    const { token } = this.login();
-    if (token) {
-      this.login(token);
-      this.$router.push("/profile");
-    } else {
-      this.$router.push("/login");
-    }
-  },
   methods: {
-    ...mapActions(["login"]),
     validate() {
       const validate = this.$refs.form.validate();
 
       if (validate) {
         const user = {
+          username: this.username,
           email: this.email,
           password: this.password
         };
