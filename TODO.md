@@ -8,11 +8,13 @@
   - [x] validate data
   - [x] insert data into database
   - [x] else display errors
+  - [ ] response user without password
 * [x] create signup route
   - [x] create POST request to /auth/signup
   - [x] validate data
   - [x] insert data into database
   - [x] else display errors
+  - [ ] response user without password
 * [x] fix duplicate data in db
 * [x] Create an admin for the app
 * [ ] Create an admin can
@@ -50,10 +52,12 @@
   - [x] confirm password form
     - [x] validate re-password
     - [x] display errors
-  - [ ] login button
-    - [ ] validate data
-    - [ ] if error display it
-    - [ ] else send request to /auth/login
+  - [x] login button
+    - [x] validate data
+    - [x] if error display it
+    - [x] else send request to /auth/login
+    - [x] display loading
+    - [ ] hide loading if there is an error
     - [ ] redirect to /home page
     - [ ] hide authentication button
     - [ ] display logout button
@@ -68,10 +72,12 @@
   - [x] confirm password form
     - [x] validate re-password
     - [x] display errors
-  - [ ] login button
-    - [ ] validate data
-    - [ ] if error display it
+  - [x] signup button
+    - [x] validate data
+    - [x] if error display it
     - [ ] else send request to /auth/login
+    - [ ] display loading
+    - [ ] hide loading if there is an error
     - [ ] redirect to /home page
     - [ ] hide authentication button
     - [ ] display logout button

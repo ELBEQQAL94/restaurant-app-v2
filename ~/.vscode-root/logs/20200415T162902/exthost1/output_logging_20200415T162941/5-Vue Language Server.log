@@ -1,0 +1,19 @@
+Loaded bundled typescript@3.7.5.
+Vetur initialized
+{ parser: "babylon" } is deprecated; we now treat it as { parser: "babel" }.
+Prettier format failed
+[Error - 5:18:27 PM] Unexpected token (32:9)
+  30 |         };
+  31 |         this.$store.dispatch("login", user);
+> 32 |         .then(() => this.$router.push("/"))
+     |         ^
+  33 |         .catch(err => console.log(err));
+  34 |       }
+  35 |     }
+Prettier format failed
+[Error - 6:38:03 PM] Unexpected token (36:1)
+  34 |     }
+  35 |   }
+> 36 | };
+     | ^
+  37 | 

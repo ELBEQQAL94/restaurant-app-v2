@@ -1,29 +1,37 @@
 <template>
   <section class="form-section">
     <h1>Login</h1>
-    <v-form ref="form" v-model="valid" :lazy-validation="lazy" class="login-form">
-      <v-text-field
-        background-color="#FFD54F"
-        v-model="email"
-        :rules="emailRules"
-        label="E-mail"
-        required
-      ></v-text-field>
-      <v-text-field
-        background-color="#FFD54F"
-        v-model="password"
-        :rules="passwordRules"
-        label="Password"
-        required
-      ></v-text-field>
+    <v-alert v-if="error" color="#D50000" class="error-alert" type="error">{{errorMessage}}</v-alert>
 
-      <v-btn
-        color="#FFD54F"
-        :disabled="!valid"
-        class="mr-4"
-        @click="validate"
-        background-color="#FFD54F"
-      >Login</v-btn>
+    <v-form ref="form" v-model="valid" :lazy-validation="lazy" class="login-form">
+      <div class="text-center progress" v-if="loading">
+        <v-progress-circular :size="50" color="#D50000" indeterminate></v-progress-circular>
+      </div>
+      <div v-if="!loading">
+        <v-text-field
+          background-color="#FFD54F"
+          v-model="email"
+          :rules="emailRules"
+          label="E-mail"
+          required
+        ></v-text-field>
+        <v-text-field
+          background-color="#FFD54F"
+          v-model="password"
+          :rules="passwordRules"
+          type="password"
+          label="Password"
+          required
+        ></v-text-field>
+
+        <v-btn
+          color="#FFD54F"
+          :disabled="!valid"
+          class="mr-4"
+          @click="validate"
+          background-color="#FFD54F"
+        >Login</v-btn>
+      </div>
     </v-form>
   </section>
 </template>
@@ -49,11 +57,22 @@
   width: 70%;
   padding: 7vmin;
 }
+
+.error-alert {
+  width: 70%;
+}
+
+.progress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
 </style>
 
 <script>
-import { mapActions } from "vuex";
-import { loginReq } from "@/api/API";
+import { mapState } from "vuex";
 
 export default {
   name: "Login",
@@ -72,35 +91,19 @@ export default {
     ],
     lazy: false
   }),
-  mounted() {
-    const { token } = this.login();
-    if (token) {
-      this.login(token);
-      this.$router.push("/profile");
-    } else {
-      this.$router.push("/login");
-    }
-  },
+  computed: mapState(["error", "errorMessage", "loading"]),
   methods: {
-    ...mapActions(["login"]),
     validate() {
-      const validate = this.$refs.form.validate();
-
-      if (validate) {
-        const user = {
-          email: this.email,
-          password: this.password
-        };
-        loginReq(user)
-          .then(token => {
-            console.log("TOKEN", token);
-          })
-          .catch(err => console.log(err));
-        console.log("user: ", user);
-        console.log("Logging in...");
-      } else {
-        console.log("Something wrong!");
-      }
+      // const validate = this.$refs.form.validate();
+      // if (validate) {
+      //   const user = {
+      //     email: this.email,
+      //     password: this.password
+      //   };
+      //   this.$store.dispatch("login", user);
+      // .then(() => this.$router.push("/"))
+      // .catch(err => console.log(err));
+      // }
     }
   }
 };

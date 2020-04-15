@@ -1,42 +1,51 @@
 <template>
   <section class="form-section">
     <h1>Signup</h1>
+    <v-alert v-if="error" color="#D50000" class="error-alert" type="error">{{errorMessage}}</v-alert>
+
     <v-form ref="form" v-model="valid" :lazy-validation="lazy" class="signup-form">
-      <v-text-field
-        background-color="#FFD54F"
-        v-model="username"
-        :rules="usernameRules"
-        label="Username"
-        required
-      ></v-text-field>
-      <v-text-field
-        background-color="#FFD54F"
-        v-model="email"
-        :rules="emailRules"
-        label="E-mail"
-        required
-      ></v-text-field>
-      <v-text-field
-        background-color="#FFD54F"
-        v-model="password"
-        :rules="passwordRules"
-        label="Password"
-        required
-      ></v-text-field>
-      <v-text-field
-        background-color="#FFD54F"
-        v-model="ConfirmPassword"
-        :rules="confirmPasswordRules"
-        label="Re-Password"
-        required
-      ></v-text-field>
-      <v-btn
-        color="#FFD54F"
-        :disabled="!valid"
-        class="mr-4"
-        @click="validate"
-        background-color="#FFD54F"
-      >Login</v-btn>
+      <div class="text-center progress" v-if="loading">
+        <v-progress-circular :size="50" color="#D50000" indeterminate></v-progress-circular>
+      </div>
+      <div v-if="!loading">
+        <v-text-field
+          background-color="#FFD54F"
+          v-model="username"
+          :rules="usernameRules"
+          label="Username"
+          required
+        ></v-text-field>
+        <v-text-field
+          background-color="#FFD54F"
+          v-model="email"
+          :rules="emailRules"
+          label="E-mail"
+          required
+        ></v-text-field>
+        <v-text-field
+          background-color="#FFD54F"
+          v-model="password"
+          :rules="passwordRules"
+          type="password"
+          label="Password"
+          required
+        ></v-text-field>
+        <v-text-field
+          background-color="#FFD54F"
+          v-model="ConfirmPassword"
+          :rules="confirmPasswordRules"
+          type="password"
+          label="Re-Password"
+          required
+        ></v-text-field>
+        <v-btn
+          color="#FFD54F"
+          :disabled="!valid"
+          class="mr-4"
+          @click="validate"
+          background-color="#FFD54F"
+        >Signup</v-btn>
+      </div>
     </v-form>
   </section>
 </template>
@@ -62,10 +71,22 @@
   width: 70%;
   padding: 7vmin;
 }
+
+.error-alert {
+  width: 70%;
+}
+
+.progress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
 </style>
 
 <script>
-import { loginReq } from "@/api/API";
+import { mapState } from "vuex";
 
 export default {
   name: "Signup",
@@ -91,6 +112,7 @@ export default {
     ],
     lazy: false
   }),
+  computed: mapState(["error", "errorMessage", "loading"]),
   methods: {
     validate() {
       const validate = this.$refs.form.validate();
@@ -101,15 +123,10 @@ export default {
           email: this.email,
           password: this.password
         };
-        loginReq(user)
-          .then(token => {
-            console.log("TOKEN", token);
-          })
+        this.$store
+          .dispatch("register", user)
+          .then(() => this.$router.push("/"))
           .catch(err => console.log(err));
-        console.log("user: ", user);
-        console.log("Logging in...");
-      } else {
-        console.log("Something wrong!");
       }
     }
   }

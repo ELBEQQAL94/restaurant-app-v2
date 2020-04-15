@@ -1,8 +1,0 @@
-[2020-04-07 11:39:50.590] [sharedprocess] [info] main {"machineId":"6f94a781583551821796953118c6cb5fade14c8856dcdbb6d957f57ec2ca034a","windowId":2}
-[2020-04-07 11:40:30.734] [sharedprocess] [info] Starting to clean up unused language packs.
-[2020-04-07 13:38:58.742] [sharedprocess] [info] Installing extension: octref.vetur
-[2020-04-07 13:39:26.825] [sharedprocess] [info] Downloaded extension: octref.vetur /tmp/50dc94b2-2960-44eb-be99-e1e8269204f5
-[2020-04-07 13:40:50.070] [sharedprocess] [info] Extracted extension to /home/youssef/.vscode/extensions/.octref.vetur-0.24.0: octref.vetur
-[2020-04-07 13:40:50.071] [sharedprocess] [info] Renamed to /home/youssef/.vscode/extensions/octref.vetur-0.24.0
-[2020-04-07 13:40:50.091] [sharedprocess] [info] Installation completed. octref.vetur
-[2020-04-07 13:40:50.288] [sharedprocess] [info] Extensions installed successfully: octref.vetur

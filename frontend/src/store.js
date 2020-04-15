@@ -1,50 +1,66 @@
 import Vue from "vue";
 import Vuex from "vuex";
-import { parseJwt } from "./helpers";
-import { getAllCategories } from "@/api/API";
+import { registerReq, loginReq } from "@/api/API";
 
 Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    token: "",
+    status: "",
+    error: false,
+    loading: false,
+    errorMessage: "",
+    token: localStorage.getItem("token") || "",
     user: null,
-    categories: []
+    categories: [],
   },
   mutations: {
-    setToken(state, token) {
-      state.token = token;
+    // setCategories(state, categories) {
+    //   state.categories = categories;
+    // },
+    auth_request(state) {
+      state.status = "loading";
     },
-    setUser(state, user) {
-      state.user = user;
+    auth_success(state, payload) {
+      state.status = "success";
+      state.token = payload.token;
+      state.user = payload.user;
     },
-    setCategories(state, categories) {
-      state.categories = categories;
-    }
+    auth_error(state, payload) {
+      state.status = "error";
+      state.error = true;
+      state.errorMessage = payload;
+      state.loading = false;
+    },
+    loading_user(state) {
+      state.loading = true;
+    },
+    clear_error(state) {
+      state.error = false;
+    },
+    logout(state) {
+      state.status = "";
+      state.token = "";
+    },
   },
   getters: {
-    isLoggedIn(state) {
-      return !!state.user;
-    }
+    isLoggedIn: (state) => !!state.token,
+    authStatus: (state) => state.status,
   },
   actions: {
-    login({ commit }, token) {
-      if (token) {
-        commit("setToken", token);
-        const user = parseJwt(token);
-        commit("setUser", user);
-      } else {
-        commit("setToken", "");
-        commit("setUser", null);
-      }
+    login({ commit }, user) {
+      loginReq(user, commit);
     },
-    isAdmin({ state }) {
-      return state.user.role_id === 2;
+    register({ commit }, user) {
+      registerReq(user, commit);
     },
-    async loadCategories({ commit }) {
-      const categories = await getAllCategories();
-      console.log(categories);
-      commit("setCategories", categories);
-    }
-  }
+    // isAdmin({ state }) {
+    //   return state.user.role_id === 2;
+    // },
+    // async loadCategories({ commit }) {
+    //   const categories = await getAllCategories();
+    //   console.log(categories);
+    //   commit("setCategories", categories);
+    // }
+  },
 });

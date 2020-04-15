@@ -12,6 +12,9 @@
           <v-flex md3>
             <v-tabs backgroundColor="#4CAF50" color="#FFFDE7">
               <v-tab>
+                <router-link to="/">Home</router-link>
+              </v-tab>
+              <v-tab>
                 <router-link to="/login">login</router-link>
               </v-tab>
               <v-tab>

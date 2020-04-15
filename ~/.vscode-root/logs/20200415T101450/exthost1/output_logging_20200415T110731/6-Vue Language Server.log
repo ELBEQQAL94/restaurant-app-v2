@@ -1,0 +1,21 @@
+Loaded bundled typescript@3.7.5.
+Vetur initialized
+[Error - 11:11:30 AM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 11:11:31 AM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+{ parser: "babylon" } is deprecated; we now treat it as { parser: "babel" }.
+[Error - 11:12:55 AM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 11:12:55 AM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read property 'isIncomplete' of undefined
+  Code: -32603 
+[Error - 4:09:40 PM] Request textDocument/signatureHelp failed.
+  Message: Request textDocument/signatureHelp failed with message: Cannot read property 'emitNode' of undefined
+  Code: -32603 
+[Error - 4:09:41 PM] Request textDocument/signatureHelp failed.
+  Message: Request textDocument/signatureHelp failed with message: Cannot read property 'emitNode' of undefined
+  Code: -32603 
