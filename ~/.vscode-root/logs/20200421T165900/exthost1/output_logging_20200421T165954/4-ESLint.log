@@ -1,0 +1,1059 @@
+[Info  - 4:59:54 PM] ESLint server stopped.
+[Info  - 4:59:56 PM] ESLint server running in node v12.8.1
+[Info  - 4:59:56 PM] ESLint server is running.
+[Info  - 5:00:24 PM] ESLint library loaded from: /home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/api.js
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:2619) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:2619) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 3)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 3)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 4)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 4)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 5)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 5)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 6)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 6)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 7)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 7)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 8)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 8)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 9)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 9)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 10)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 10)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 11)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 11)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 12)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 12)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 13)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 13)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 14)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 14)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 15)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 15)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 16)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 16)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 17)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 17)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 18)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 18)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 19)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 19)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 20)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 20)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 21)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 21)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 22)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 22)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 23)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 23)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 24)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 24)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 25)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 25)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 26)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 26)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 27)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 27)
+[Info  - 5:00:28 PM] Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue' Require stack: - /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 28)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 28)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 29)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 29)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 30)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 30)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 31)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 31)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 32)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 32)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 33)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 33)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 34)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 34)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Error: Failed to load plugin 'vue' declared in 'frontend/package.json': Cannot find module 'eslint-plugin-vue'
+Require stack:
+- /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js
+Referenced from: /home/youssef/Downloads/restaurant-app-v2/frontend/package.json
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:717:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:74:19)
+    at Object.resolve (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/shared/relative-module-resolver.js:44:50)
+    at ConfigArrayFactory._loadPlugin (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:959:39)
+    at ConfigArrayFactory._loadExtendedPluginConfig (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:779:29)
+    at ConfigArrayFactory._loadExtends (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:725:29)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:660:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/eslint/lib/cli-engine/config-array-factory.js:596:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 35)
+(node:2619) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 35)
+[Info  - 5:12:18 PM] ESLint library loaded from: /home/youssef/Downloads/restaurant-app-v2/server/node_modules/eslint/lib/api.js
+[Info  - 5:12:22 PM] Failed to load plugin 'import' declared in 'server/.eslintrc.js » eslint-config-airbnb-base » /home/youssef/Downloads/restaurant-app-v2/server/node_modules/eslint-config-airbnb-base/rules/imports.js': Cannot find module 'eslint-plugin-import' Require stack: - /home/youssef/Downloads/restaurant-app-v2/__placeholder__.js

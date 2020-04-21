@@ -2,14 +2,15 @@
     "telemetry.machineId": "6f94a781583551821796953118c6cb5fade14c8856dcdbb6d957f57ec2ca034a",
     "openedPathsList": {
         "workspaces3": [
+            "file:///home/youssef/Downloads/restaurant-app-v2",
             "file:///home/youssef/Downloads/opt/restaurant-app-v2"
         ],
         "files2": []
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/youssef/Downloads/opt/restaurant-app-v2",
-            "backupPath": "/home/youssef/Downloads/opt/restaurant-app-v2/~/.vscode-root/Backups/56b854c48deefcd6ca067aa05fc6bfa9",
+            "folder": "file:///home/youssef/Downloads/restaurant-app-v2",
+            "backupPath": "/home/youssef/Downloads/restaurant-app-v2/~/.vscode-root/Backups/6eb8e2b2d4eab624aec5b14fd8e10167",
             "uiState": {
                 "mode": 0,
                 "x": 171,
@@ -65,7 +66,18 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/youssef/Downloads/opt/restaurant-app-v2",
+                                        "fsPath": "/home/youssef/Downloads/restaurant-app-v2",
+                                        "external": "file:///home/youssef/Downloads/restaurant-app-v2",
+                                        "path": "/home/youssef/Downloads/restaurant-app-v2",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Downloads/restaurant-app-v2"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/youssef/Downloads/opt/restaurant-app-v2",
                                         "path": "/home/youssef/Downloads/opt/restaurant-app-v2",
                                         "scheme": "file"
@@ -146,7 +158,7 @@
                                 },
                                 {
                                     "id": "workbench.action.openGlobalKeybindings",
-                                    "label": "&&Keyboard Shortcuts"
+                                    "label": "Keyboard Shortcuts"
                                 },
                                 {
                                     "id": "workbench.extensions.action.showRecommendedKeymapExtensions",
@@ -386,8 +398,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Show &&Side Bar",
-                                    "checked": true
+                                    "label": "Show &&Side Bar"
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
@@ -727,7 +738,7 @@
                     },
                     {
                         "id": "workbench.action.gotoSymbol",
-                        "label": "Go to &&Symbol in File..."
+                        "label": "Go to &&Symbol in Editor..."
                     },
                     {
                         "id": "editor.action.revealDefinition",

@@ -4,17 +4,21 @@
 
 * [x] deploy database
 * [x] create login route
+
   - [x] create POST request to /auth/login
   - [x] validate data
   - [x] insert data into database
   - [x] else display errors
   - [ ] response user without password
+  - [ ] response user with date (created_at and updated_at)
+
 * [x] create signup route
   - [x] create POST request to /auth/signup
   - [x] validate data
   - [x] insert data into database
   - [x] else display errors
   - [ ] response user without password
+  - [ ] response user with date (created_at and updated_at)
 * [x] fix duplicate data in db
 * [x] Create an admin for the app
 * [ ] Create an admin can

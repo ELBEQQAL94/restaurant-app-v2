@@ -86,7 +86,7 @@
 </style>
 
 <script>
-import { mapState } from "vuex";
+import { mapState, mapActions } from "vuex";
 
 export default {
   name: "Signup",
@@ -114,6 +114,7 @@ export default {
   }),
   computed: mapState(["error", "errorMessage", "loading"]),
   methods: {
+    ...mapActions(["register"]),
     validate() {
       const validate = this.$refs.form.validate();
 
@@ -123,10 +124,7 @@ export default {
           email: this.email,
           password: this.password
         };
-        this.$store
-          .dispatch("register", user)
-          .then(() => this.$router.push("/"))
-          .catch(err => console.log(err));
+        this.register(user).then(() => this.$router.push("/"));
       }
     }
   }

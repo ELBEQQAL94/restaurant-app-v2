@@ -1,0 +1,12 @@
+Loaded bundled typescript@3.7.5.
+Vetur initialized
+{ parser: "babylon" } is deprecated; we now treat it as { parser: "babel" }.
+Prettier format failed
+[Error - 5:00:48 PM] Unexpected token, expected "," (31:5)
+  29 |   methods: {
+  30 |     ...mapActions(["register"])
+> 31 |     validate() {
+     |     ^
+  32 |       const validate = this.$refs.form.validate();
+  33 | 
+  34 |       if (validate) {

@@ -53,18 +53,17 @@ export function registerReq(user, commit) {
 }
 
 export function loginReq(user, commit) {
-  console.log("req login is running...");
-  console.log(user);
   return new Promise((resolve, reject) => {
     commit("auth_request");
     axios({ url: `${API_URL}/auth/login`, data: user, method: "POST" })
       .then((resp) => {
         const token = resp.data;
-        const user = parseJwt(resp.data);
+        const user = parseJwt(resp.data.token);
         const payload = {
           token,
           user,
         };
+        console.log(resp.data);
         localStorage.setItem("token", token);
         axios.defaults.headers.common["Authorization"] = token;
         commit("loading_user");

@@ -72,7 +72,7 @@
 </style>
 
 <script>
-import { mapState } from "vuex";
+import { mapState, mapActions } from "vuex";
 
 export default {
   name: "Login",
@@ -93,17 +93,16 @@ export default {
   }),
   computed: mapState(["error", "errorMessage", "loading"]),
   methods: {
+    ...mapActions(["login"]),
     validate() {
-      // const validate = this.$refs.form.validate();
-      // if (validate) {
-      //   const user = {
-      //     email: this.email,
-      //     password: this.password
-      //   };
-      //   this.$store.dispatch("login", user);
-      // .then(() => this.$router.push("/"))
-      // .catch(err => console.log(err));
-      // }
+      const validate = this.$refs.form.validate();
+      if (validate) {
+        const user = {
+          email: this.email,
+          password: this.password
+        };
+        this.login(user).then(() => this.$router.push("/"));
+      }
     }
   }
 };

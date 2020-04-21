@@ -1,0 +1,98 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/youssef/Downloads/restaurant-app-v2
+> git status -z -u
+> git show :frontend/src/views/Signup.vue
+> git ls-files --stage -- /home/youssef/Downloads/restaurant-app-v2/frontend/src/views/Signup.vue
+> git cat-file -s 8c185257959b59509f56565302ed3a9f58c66b30
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/youssef/Downloads/restaurant-app-v2/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/youssef/Downloads/restaurant-app-v2/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show :frontend/src/store.js
+> git ls-files --stage -- /home/youssef/Downloads/restaurant-app-v2/frontend/src/store.js
+> git cat-file -s 3473feb92fe1ca08f20d13ca7b20d7075041dbb7
+> git show :frontend/src/views/Signup.vue
+> git ls-files --stage -- /home/youssef/Downloads/restaurant-app-v2/frontend/src/views/Signup.vue
+> git cat-file -s 8c185257959b59509f56565302ed3a9f58c66b30
+> git show :frontend/src/views/Login.vue
+> git ls-files --stage -- /home/youssef/Downloads/restaurant-app-v2/frontend/src/views/Login.vue
+> git cat-file -s 402cc52a39621f7da9a74f595cf20cda4fbe2634
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/youssef/Downloads/restaurant-app-v2/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/youssef/Downloads/restaurant-app-v2/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git show :frontend/src/views/Signup.vue
+> git ls-files --stage -- /home/youssef/Downloads/restaurant-app-v2/frontend/src/views/Signup.vue
+> git cat-file -s 8c185257959b59509f56565302ed3a9f58c66b30
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/youssef/Downloads/restaurant-app-v2/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/youssef/Downloads/restaurant-app-v2/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :TODO.md
+> git ls-files --stage -- /home/youssef/Downloads/restaurant-app-v2/TODO.md
+> git cat-file -s eb2b38fd4b7350448e5d9cac26661f5e9e9d4763
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/youssef/Downloads/restaurant-app-v2/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/youssef/Downloads/restaurant-app-v2/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/youssef/Downloads/restaurant-app-v2/TODO.md
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :server/src/controller/auth/helpers/index.js
+> git ls-files --stage -- /home/youssef/Downloads/restaurant-app-v2/server/src/controller/auth/helpers/index.js
+> git cat-file -s 42204c18858b67a038f942622d1e0dd27f806361

@@ -9,7 +9,7 @@
 
 <script>
 import AppNav from "@/components/AppNav";
-import { mapActions } from "vuex";
+// import { mapActions } from "vuex";
 
 export default {
   name: "App",
@@ -22,12 +22,12 @@ export default {
       tab: null,
       items: ["home", "about"]
     };
-  },
-  mounted() {
-    this.login(localStorage.token);
-    //this.loadCategories();
-  },
-  methods: mapActions(["login"])
+  }
+  // mounted() {
+  //   this.login(localStorage.token);
+  //   //this.loadCategories();
+  // },
+  // methods: mapActions(["login"])
 };
 </script>
 <style>

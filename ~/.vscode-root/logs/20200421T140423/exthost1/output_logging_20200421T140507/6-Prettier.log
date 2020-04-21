@@ -1,0 +1,1760 @@
+["INFO" - 2:05:07 PM] Extension Name: esbenp.prettier-vscode.
+["INFO" - 2:05:07 PM] Extension Version: 4.4.0.
+["INFO" - 2:05:07 PM] Enabling prettier for languages
+[
+  "css",
+  "graphql",
+  "html",
+  "javascript",
+  "javascriptreact",
+  "json",
+  "json5",
+  "jsonc",
+  "less",
+  "markdown",
+  "mdx",
+  "mongo",
+  "postcss",
+  "scss",
+  "typescript",
+  "typescriptreact",
+  "vue",
+  "yaml"
+]
+["INFO" - 2:05:08 PM] Enabling prettier for range supported languages
+[
+  "graphql",
+  "javascript",
+  "javascriptreact",
+  "json",
+  "typescript",
+  "typescriptreact"
+]
+["INFO" - 2:47:44 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 2:47:44 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 2:47:44 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 2:47:44 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 2:47:44 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 2:47:44 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 2:47:45 PM] Formatting completed in 751.081853ms.
+["INFO" - 2:51:06 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/store.js
+["INFO" - 2:51:06 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 2:51:06 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 2:51:06 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 2:51:06 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 2:51:06 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/store.js",
+  "parser": "babel"
+}
+["INFO" - 2:51:07 PM] Formatting completed in 156.880509ms.
+["INFO" - 2:51:39 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/store.js
+["INFO" - 2:51:39 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 2:51:39 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 2:51:39 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 2:51:39 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 2:51:39 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/store.js",
+  "parser": "babel"
+}
+["INFO" - 2:51:39 PM] Formatting completed in 167.553531ms.
+["INFO" - 2:53:31 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/store.js
+["INFO" - 2:53:31 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 2:53:31 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 2:53:31 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 2:53:31 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 2:53:31 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/store.js",
+  "parser": "babel"
+}
+["INFO" - 2:53:31 PM] Formatting completed in 185.011235ms.
+["INFO" - 2:53:49 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/store.js
+["INFO" - 2:53:49 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 2:53:49 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 2:53:49 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 2:53:49 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 2:53:49 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/store.js",
+  "parser": "babel"
+}
+["INFO" - 2:53:49 PM] Formatting completed in 177.723698ms.
+["INFO" - 2:55:09 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 2:55:09 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 2:55:09 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 2:55:09 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 2:55:09 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 2:55:09 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 2:55:09 PM] Formatting completed in 224.25254ms.
+["INFO" - 3:02:39 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 3:02:39 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 3:02:39 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 3:02:39 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 3:02:39 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:02:39 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 3:02:39 PM] Formatting completed in 213.146055ms.
+["INFO" - 3:04:25 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 3:04:25 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 3:04:25 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 3:04:25 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 3:04:25 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:04:25 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 3:04:25 PM] Formatting completed in 197.496367ms.
+["INFO" - 3:07:40 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 3:07:40 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 3:07:40 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 3:07:40 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 3:07:40 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:07:40 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 3:07:40 PM] Formatting completed in 296.134392ms.
+["INFO" - 3:08:39 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 3:08:39 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 3:08:39 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 3:08:39 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 3:08:39 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:08:39 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 3:08:39 PM] Formatting completed in 431.681452ms.
+["INFO" - 3:11:06 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 3:11:06 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 3:11:06 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 3:11:06 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 3:11:06 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:11:06 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 3:11:06 PM] Formatting completed in 202.552151ms.
+["INFO" - 3:13:52 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 3:13:52 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 3:13:52 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 3:13:52 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 3:13:52 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:13:52 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 3:13:52 PM] Formatting completed in 330.893328ms.
+["INFO" - 3:18:03 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 3:18:03 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 3:18:03 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 3:18:03 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 3:18:03 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:18:03 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 3:18:03 PM] Formatting completed in 434.104145ms.
+["INFO" - 3:21:20 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 3:21:20 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 3:21:20 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 3:21:20 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 3:21:20 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:21:20 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 3:21:20 PM] Formatting completed in 302.51505ms.
+["INFO" - 3:25:39 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/store.js
+["INFO" - 3:25:39 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 3:25:39 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 3:25:39 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 3:25:39 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:25:39 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/store.js",
+  "parser": "babel"
+}
+["INFO" - 3:25:39 PM] Formatting completed in 372.400865ms.
+["INFO" - 3:28:23 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 3:28:23 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 3:28:23 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 3:28:23 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 3:28:23 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:28:23 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 3:28:23 PM] Formatting completed in 355.812271ms.
+["INFO" - 3:33:38 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 3:33:38 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 3:33:38 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 3:33:38 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 3:33:38 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:33:38 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 3:33:39 PM] Formatting completed in 79.123032ms.
+["INFO" - 3:34:03 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 3:34:03 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 3:34:03 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 3:34:03 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 3:34:03 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:34:03 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 3:34:04 PM] Formatting completed in 289.955479ms.
+["INFO" - 3:34:47 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/store.js
+["INFO" - 3:34:47 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 3:34:47 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 3:34:47 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 3:34:47 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:34:47 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/store.js",
+  "parser": "babel"
+}
+["INFO" - 3:34:47 PM] Formatting completed in 609.712136ms.
+["INFO" - 3:37:53 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 3:37:53 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 3:37:53 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 3:37:53 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 3:37:53 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:37:53 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 3:37:53 PM] Formatting completed in 171.786833ms.
+["INFO" - 3:38:55 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/store.js
+["INFO" - 3:38:55 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 3:38:55 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 3:38:55 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 3:38:55 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:38:55 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/store.js",
+  "parser": "babel"
+}
+["INFO" - 3:38:55 PM] Formatting completed in 184.971204ms.
+["INFO" - 3:44:27 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/store.js
+["INFO" - 3:44:27 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 3:44:27 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 3:44:27 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 3:44:27 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:44:27 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/store.js",
+  "parser": "babel"
+}
+["INFO" - 3:44:27 PM] Formatting completed in 145.441252ms.
+["INFO" - 3:44:44 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/store.js
+["INFO" - 3:44:44 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 3:44:44 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 3:44:44 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 3:44:44 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:44:44 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/store.js",
+  "parser": "babel"
+}
+["INFO" - 3:44:44 PM] Formatting completed in 265.694912ms.
+["INFO" - 3:46:19 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/store.js
+["INFO" - 3:46:19 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 3:46:19 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 3:46:19 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 3:46:19 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:46:19 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/store.js",
+  "parser": "babel"
+}
+["INFO" - 3:46:19 PM] Formatting completed in 143.34552ms.
+["INFO" - 3:47:21 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/store.js
+["INFO" - 3:47:21 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 3:47:21 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 3:47:21 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 3:47:21 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:47:21 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/store.js",
+  "parser": "babel"
+}
+["INFO" - 3:47:21 PM] Formatting completed in 133.510545ms.
+["INFO" - 3:47:25 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/store.js
+["INFO" - 3:47:25 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 3:47:25 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 3:47:25 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 3:47:25 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:47:25 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/store.js",
+  "parser": "babel"
+}
+["INFO" - 3:47:25 PM] Formatting completed in 182.040876ms.
+["INFO" - 3:47:28 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 3:47:28 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 3:47:28 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 3:47:28 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 3:47:28 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:47:28 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 3:47:28 PM] Formatting completed in 191.281437ms.
+["INFO" - 3:47:35 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/store.js
+["INFO" - 3:47:35 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 3:47:35 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 3:47:35 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 3:47:35 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:47:35 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/store.js",
+  "parser": "babel"
+}
+["INFO" - 3:47:35 PM] Formatting completed in 187.582295ms.
+["INFO" - 3:49:19 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 3:49:19 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 3:49:19 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 3:49:19 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 3:49:19 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:49:19 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 3:49:19 PM] Formatting completed in 127.056681ms.
+["INFO" - 3:49:31 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 3:49:31 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 3:49:31 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 3:49:31 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 3:49:32 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:49:32 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 3:49:32 PM] Formatting completed in 190.139375ms.
+["INFO" - 3:52:29 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 3:52:29 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 3:52:29 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 3:52:29 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 3:52:29 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:52:29 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 3:52:29 PM] Formatting completed in 218.761277ms.
+["INFO" - 3:52:34 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/store.js
+["INFO" - 3:52:34 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 3:52:34 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 3:52:34 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 3:52:34 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:52:34 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/store.js",
+  "parser": "babel"
+}
+["INFO" - 3:52:34 PM] Formatting completed in 188.981062ms.
+["INFO" - 3:52:53 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 3:52:53 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 3:52:53 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 3:52:53 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 3:52:53 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:52:53 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 3:52:54 PM] Formatting completed in 306.795556ms.
+["INFO" - 3:55:22 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/store.js
+["INFO" - 3:55:22 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 3:55:22 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 3:55:22 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 3:55:22 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:55:22 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/store.js",
+  "parser": "babel"
+}
+["INFO" - 3:55:22 PM] Formatting completed in 109.195172ms.
+["INFO" - 3:56:25 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 3:56:25 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 3:56:25 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 3:56:25 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 3:56:25 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:56:25 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 3:56:25 PM] Formatting completed in 272.501881ms.
+["INFO" - 4:00:23 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 4:00:23 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 4:00:23 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 4:00:23 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 4:00:23 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 4:00:23 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 4:00:23 PM] Formatting completed in 194.702535ms.
+["INFO" - 4:03:11 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 4:03:11 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 4:03:11 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 4:03:11 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 4:03:11 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 4:03:11 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 4:03:11 PM] Formatting completed in 244.183098ms.
+["INFO" - 4:03:40 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 4:03:40 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 4:03:40 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 4:03:40 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 4:03:40 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 4:03:40 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 4:03:40 PM] Formatting completed in 190.043947ms.
+["INFO" - 4:07:53 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 4:07:53 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 4:07:53 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 4:07:53 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 4:07:53 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 4:07:53 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 4:07:53 PM] Formatting completed in 272.552795ms.
+["INFO" - 4:08:23 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 4:08:23 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 4:08:23 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 4:08:23 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 4:08:23 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 4:08:23 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 4:08:23 PM] Formatting completed in 170.19762ms.
+["INFO" - 4:08:45 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 4:08:45 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 4:08:45 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 4:08:45 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 4:08:45 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 4:08:45 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 4:08:45 PM] Formatting completed in 190.739249ms.
+["INFO" - 4:11:53 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 4:11:53 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 4:11:53 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 4:11:53 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 4:11:53 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 4:11:53 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 4:11:54 PM] Formatting completed in 347.795311ms.
+["INFO" - 4:16:27 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 4:16:27 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 4:16:27 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 4:16:28 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 4:16:28 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 4:16:28 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 4:16:28 PM] Formatting completed in 428.743151ms.
+["INFO" - 4:19:41 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 4:19:41 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 4:19:41 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 4:19:41 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 4:19:41 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 4:19:41 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 4:19:41 PM] Formatting completed in 567.486571ms.
+["INFO" - 4:20:39 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 4:20:39 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 4:20:39 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 4:20:39 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 4:20:39 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 4:20:39 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 4:20:39 PM] Formatting completed in 333.841731ms.
+["INFO" - 4:23:49 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 4:23:49 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 4:23:49 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 4:23:50 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 4:23:50 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 4:23:50 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 4:23:50 PM] Formatting completed in 330.813586ms.
+["INFO" - 4:28:40 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 4:28:40 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 4:28:40 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 4:28:40 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 4:28:40 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 4:28:40 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 4:28:40 PM] Formatting completed in 580.199121ms.
+["INFO" - 4:30:24 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 4:30:24 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 4:30:24 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 4:30:24 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 4:30:24 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 4:30:24 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 4:30:25 PM] Formatting completed in 631.062064ms.
+["INFO" - 4:30:40 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 4:30:40 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 4:30:40 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 4:30:40 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 4:30:40 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 4:30:40 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 4:30:41 PM] Formatting completed in 600.991729ms.
+["INFO" - 4:33:32 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 4:33:32 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 4:33:32 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 4:33:32 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 4:33:32 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 4:33:32 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 4:33:32 PM] Formatting completed in 220.616582ms.
+["INFO" - 4:36:00 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 4:36:00 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 4:36:00 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 4:36:00 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 4:36:00 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 4:36:00 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 4:36:00 PM] Formatting completed in 388.365428ms.
+["INFO" - 4:37:54 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 4:37:54 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 4:37:54 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 4:37:54 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 4:37:54 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 4:37:54 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 4:37:54 PM] Formatting completed in 247.289818ms.
+["INFO" - 4:40:41 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 4:40:41 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 4:40:41 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 4:40:41 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 4:40:41 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 4:40:41 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 4:40:41 PM] Formatting completed in 310.160106ms.
+["INFO" - 4:44:07 PM] Formatting /home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js
+["INFO" - 4:44:07 PM] Using ignore file (if present) at /home/youssef/Downloads/restaurant-app-v2/.prettierignore
+["INFO" - 4:44:07 PM] Loaded module 'prettier@1.19.1' from '/home/youssef/Downloads/restaurant-app-v2/frontend/node_modules/prettier/index.js'
+["INFO" - 4:44:07 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 4:44:07 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 4:44:07 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/youssef/Downloads/restaurant-app-v2/frontend/src/api/API.js",
+  "parser": "babel"
+}
+["INFO" - 4:44:07 PM] Formatting completed in 386.658076ms.
